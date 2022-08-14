@@ -1,6 +1,9 @@
 {
   "name": "blue-portfolio",
   "version": "0.1.0",
+  "description": "Dagogo Uranta's personal portfolio",
+  "main": "server.js",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
