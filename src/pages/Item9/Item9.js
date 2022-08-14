@@ -20,7 +20,7 @@ import './gallery.css'
   import IMG1 from '../../assets/oop-dalibor1.png'
   
 /*footer imports */
-import Footer from '../../components/footer/Footer'
+import Footer from '../../components/footer/Footer.js'
 
 const Item1 = () => {
     return (

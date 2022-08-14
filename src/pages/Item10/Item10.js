@@ -21,7 +21,7 @@ import './gallery.css'
   import IMG2 from '../../assets/calc2.png'
   
 /*footer imports */
-import Footer from '../../components/footer/Footer'
+import Footer from '../../components/footer/Footer.js'
 
 const Item1 = () => {
     return (
