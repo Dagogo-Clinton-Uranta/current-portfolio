@@ -5,13 +5,13 @@ import path from 'path'
 dotenv.config()
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 
 
 
 
-const publicPath = path.join(__dirname, './build');
+const publicPath = path.join(__dirname, '/build');
 app.use(express.static(publicPath));
 
 
