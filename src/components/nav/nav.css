@@ -1,0 +1,40 @@
+nav {
+    background:rgba(0,0,0,0.3);
+    width: max-content; /*max content fits the width of the content itself*/
+    display: block;
+    padding:0.7rem 1.7rem;
+    position:fixed;
+    z-index: 2;
+
+    /*another centering style when youdont know the 
+    exact dimensions of the container element */
+
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+
+    display:flex;
+    gap:0.8rem; /*the gap for display flex is on the same level as display flex*/
+    border-radius: 3rem;
+    backdrop-filter:blur(15px); /*please what is backdrop filter ? go research */
+    
+}
+
+nav a {
+    background:transparent;
+    padding:0.9rem;
+    border-radius:50%;
+    display:flex;
+    color:var(--color-light);
+    font-size:1.1rem; 
+}
+
+nav a:hover {
+    background:rgba(0,0,0,0.3);
+}
+
+nav a.active {
+    background:var(--color-primary);
+    color:var(--color-bg);
+}
+
