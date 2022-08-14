@@ -2,18 +2,18 @@ import React,{useEffect, useState} from 'react';
 
 
 
-import Homepage from "./pages/Homepage";
-import Item1 from "./pages/Item1/Item1";
-import Item2 from "./pages/Item2/Item2";
-import Item3 from "./pages/Item3/Item3";
-import Item4 from "./pages/Item4/Item4";
-import Item5 from "./pages/Item5/Item5";
-import Item6 from "./pages/Item6/Item6";
-import Item7 from "./pages/Item7/Item7";
-import Item8 from "./pages/Item8/Item8";
-import Item9 from "./pages/Item9/Item9";
-import Item10 from "./pages/Item10/Item10";
-import Item11 from "./pages/Item11/Item11";
+import Homepage from "./pages/Homepage.js";
+import Item1 from "./pages/Item1/Item1.js";
+import Item2 from "./pages/Item2/Item2.js";
+import Item3 from "./pages/Item3/Item3.js";
+import Item4 from "./pages/Item4/Item4.js";
+import Item5 from "./pages/Item5/Item5.js";
+import Item6 from "./pages/Item6/Item6.js";
+import Item7 from "./pages/Item7/Item7.js";
+import Item8 from "./pages/Item8/Item8.js";
+import Item9 from "./pages/Item9/Item9.js";
+import Item10 from "./pages/Item10/Item10.js";
+import Item11 from "./pages/Item11/Item11.js";
 
 
 
