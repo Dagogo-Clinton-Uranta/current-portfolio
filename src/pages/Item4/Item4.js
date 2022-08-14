@@ -23,7 +23,7 @@ import './gallery.css'
   
 
 /*footer imports */
-import Footer from '../../components/footer/Footer'
+import Footer from '../../components/footer/Footer.js'
 
 const Item1 = () => {
     return (

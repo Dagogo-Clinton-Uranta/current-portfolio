@@ -22,7 +22,7 @@ import './gallery.css'
   import IMG3 from '../../assets/barbucks5.png'
   
 /*footer imports */
-import Footer from '../../components/footer/Footer'
+import Footer from '../../components/footer/Footer.js'
 
 const Item1 = () => {
     return (
