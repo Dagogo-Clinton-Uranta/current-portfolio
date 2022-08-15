@@ -6,7 +6,7 @@ import path from 'path'
 dotenv.config()
 
 const app = express();
-const port = proccess.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 
 
