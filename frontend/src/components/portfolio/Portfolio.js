@@ -4,19 +4,19 @@ import Iframe from 'react-iframe'
 import './portfolio.css'
 import IMG1 from '../../assets/cinnamon2.png'
 import IMG2 from '../../assets/barbucks2.png'
-import IMG3 from '../../assets/bridgeway-web2.png'
+import IMG3 from '../../assets/bway-main-page.gif'
 import IMG4 from '../../assets/chat-app2.png'
-import IMG5 from '../../assets/bridgewayco-op2.png'
+import IMG5 from '../../assets/bway-cop-op.gif'
 import IMG6 from '../../assets/flacs-carpark2.png'
 import IMG7 from '../../assets/bridgewayview1.png'
 import IMG8 from '../../assets/laravel-job-board2.png'
 import IMG9 from '../../assets/oop-dalibor1.png'
-import IMG10 from '../../assets/calc1.png'
+import IMG10 from '../../assets/calc-3.gif'
 import IMG11 from '../../assets/chat-app2.png'
 
-import VID1 from '../../assets/bway-main-page.mp4'
+/*import VID1 from '../../assets/bway-main-page.mp4'
 import VID2 from '../../assets/co-op-vid.mp4'
-import VID3 from '../../assets/calc3.mp4'
+import VID3 from '../../assets/calc3.mp4'*/
 
 
 
@@ -73,12 +73,11 @@ const Portfolio = () => {
 
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
-  {/*<img src={IMG3} alt="portfolio item 1"  />*/}
-  {/*<iframe class="embed-responsive-item"id="ytplayer" type="text/html"  src="https://www.youtube.com/embed/wr66wu42Gu0?&autoplay=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=wr66wu42Gu0"
-      frameborder="0" allowfullscreen></iframe>*/}
-      <video height="180px"  muted autoplay loop  preload="true" ref={video1Ref}>
+  <img src={IMG3} alt="portfolio item 1"  />
+  
+    {/*  <video height="180px"  muted autoplay loop  preload="true" ref={video1Ref}>
       <source src={VID1} type="video/mp4"/>
-    </video>
+    </video>*/}
 
 </div>
   <h3> Bank Webpage</h3>
@@ -111,10 +110,10 @@ const Portfolio = () => {
 
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
-  {/*<img src={IMG5} alt="portfolio item 1"  />*/}
-  <video height="270px" muted autoplay loop  preload="true" ref={video2Ref}>
+ <img src={IMG5} alt="portfolio item 1"  />
+   {/*<video height="270px" muted autoplay loop  preload="true" ref={video2Ref}>
       <source src={VID2} type="video/mp4"/>
-    </video>
+    </video>*/}
 </div>
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
@@ -187,10 +186,10 @@ const Portfolio = () => {
  <div className="container portfolio__container">
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
- {/* <img src={IMG10} alt="portfolio item 1"  />*/}
- <video height="270px" muted autoplay loop  preload="true" ref={video3Ref}>
+  <img src={IMG10} alt="portfolio item 1"  />
+ {/*<video height="270px" muted autoplay loop  preload="true" ref={video3Ref}>
       <source src={VID3} type="video/mp4"/>
-    </video>
+    </video>*/}
   </div>
  
   <h3>Neumorphic Calculator</h3>
