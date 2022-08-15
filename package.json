@@ -16,6 +16,7 @@
   "author": "Dagogo Clinton Uranta",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "dotenv": "^16.0.1"
   }
 }

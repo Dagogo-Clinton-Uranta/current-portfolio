@@ -5,7 +5,7 @@ import path from 'path'
 
 
 const app = express();
-const port = 5000;
+const port = proccess.env.PORT || 5000;
 
 
 
