@@ -14,9 +14,9 @@ import IMG9 from '../../assets/oop-dalibor1.png'
 import IMG10 from '../../assets/calc-3.gif'
 import IMG11 from '../../assets/chat-app2.png'
 
-/*import VID1 from '../../assets/bway-main-page.mp4'
+import VID1 from '../../assets/bway-main-page.mp4'
 import VID2 from '../../assets/co-op-vid.mp4'
-import VID3 from '../../assets/calc3.mp4'*/
+import VID3 from '../../assets/calc3.mp4'
 
 
 
@@ -73,11 +73,11 @@ const Portfolio = () => {
 
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
-  <img src={IMG3} alt="portfolio item 1"  />
+  {/*<img src={IMG3} alt="portfolio item 1"  />*/}
   
-    {/*  <video height="180px"  muted autoplay loop  preload="true" ref={video1Ref}>
+   <video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
       <source src={VID1} type="video/mp4"/>
-    </video>*/}
+    </video>
 
 </div>
   <h3> Bank Webpage</h3>
@@ -110,10 +110,10 @@ const Portfolio = () => {
 
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
- <img src={IMG5} alt="portfolio item 1"  />
-   {/*<video height="270px" muted autoplay loop  preload="true" ref={video2Ref}>
+  {/*<img src={IMG5} alt="portfolio item 5"  />*/}
+  <video height="270px" muted autoplay playsinline loop  preload="true" ref={video2Ref}>
       <source src={VID2} type="video/mp4"/>
-    </video>*/}
+    </video>
 </div>
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
@@ -186,12 +186,11 @@ const Portfolio = () => {
  <div className="container portfolio__container">
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
-  <img src={IMG10} alt="portfolio item 1"  />
- {/*<video height="270px" muted autoplay loop  preload="true" ref={video3Ref}>
+  {/*<img src={IMG10} alt="portfolio item 10"  />*/}
+ <video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
       <source src={VID3} type="video/mp4"/>
-    </video>*/}
+    </video>
   </div>
- 
   <h3>Neumorphic Calculator</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio10"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
