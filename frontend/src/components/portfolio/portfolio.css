@@ -73,6 +73,16 @@ color:var(--color-primary);
 
 }
 
+/*=======================VIDEO CLASSES=========================*/
+.bway-page-vid{
+    height: 180px;  /*video 1*/
+}
+
+.coop-vid{
+    height: 270px; 
+}
+
+
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 

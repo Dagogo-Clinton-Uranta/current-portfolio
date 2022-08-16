@@ -1,7 +1,8 @@
 import React,{useRef,useEffect} from 'react'
-import Iframe from 'react-iframe'
+
 
 import './portfolio.css'
+import VideoPlayer from '../../components/videoPlayer.js'
 import IMG1 from '../../assets/cinnamon2.png'
 import IMG2 from '../../assets/barbucks2.png'
 import IMG3 from '../../assets/bway-main-page.gif'
@@ -29,11 +30,11 @@ const Portfolio = () => {
   const video2Ref = useRef('')
   const video1Ref = useRef('')
    
-   useEffect(()=>{
+   /*useEffect(()=>{
      video3Ref.current.play()
      video2Ref.current.play()
      video1Ref.current.play()
-   },[])
+   },[])*/
 
 
   return (
@@ -75,9 +76,10 @@ const Portfolio = () => {
   <div className="portfolio__item-image">
   {/*<img src={IMG3} alt="portfolio item 1"  />*/}
   
-   <video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
+   {/*<video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
       <source src={VID1} type="video/mp4"/>
-    </video>
+  </video>*/}
+    <VideoPlayer video ={VID1} className={"bway-page-vid"}/>
 
 </div>
   <h3> Bank Webpage</h3>
@@ -111,9 +113,11 @@ const Portfolio = () => {
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
   {/*<img src={IMG5} alt="portfolio item 5"  />*/}
-  <video height="270px" muted autoplay playsinline loop  preload="true" ref={video2Ref}>
+  {/*<video height="270px" muted autoplay playsinline loop  preload="true" ref={video2Ref}>
       <source src={VID2} type="video/mp4"/>
-    </video>
+    </video>*/}
+
+    <VideoPlayer video ={VID2} className={"coop-vid"}/>
 </div>
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
@@ -187,9 +191,11 @@ const Portfolio = () => {
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
   {/*<img src={IMG10} alt="portfolio item 10"  />*/}
- <video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
+ {/*<video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
       <source src={VID3} type="video/mp4"/>
-    </video>
+    </video>*/}
+  <VideoPlayer video ={VID3} className={"coop-vid"}/>
+    
   </div>
   <h3>Neumorphic Calculator</h3>
   <div className="portfolio__item-cta">
