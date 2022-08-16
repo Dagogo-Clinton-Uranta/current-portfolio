@@ -5,19 +5,19 @@ import './portfolio.css'
 import VideoPlayer from '../../components/videoPlayer.js'
 import IMG1 from '../../assets/cinnamon2.png'
 import IMG2 from '../../assets/barbucks2.png'
-import IMG3 from '../../assets/bway-main-page.gif'
+//import IMG3 from '../../assets/bway-main-page.gif'
 import IMG4 from '../../assets/chat-app2.png'
-import IMG5 from '../../assets/bway-cop-op.gif'
+//import IMG5 from '../../assets/bway-cop-op.gif'
 import IMG6 from '../../assets/flacs-carpark2.png'
 import IMG7 from '../../assets/bridgewayview1.png'
 import IMG8 from '../../assets/laravel-job-board2.png'
 import IMG9 from '../../assets/oop-dalibor1.png'
-import IMG10 from '../../assets/calc-3.gif'
+//import IMG10 from '../../assets/calc-3.gif'
 import IMG11 from '../../assets/chat-app2.png'
 
-import VID1 from '../../assets/bway-main-page.mp4'
-import VID2 from '../../assets/co-op-vid.mp4'
-import VID3 from '../../assets/calc3.mp4'
+//import VID1 from '../../assets/bway-main-page.mp4'
+//import VID2 from '../../assets/co-op-vid.mp4'
+//import VID3 from '../../assets/calc3.mp4'
 
 
 
@@ -31,7 +31,7 @@ const video2 = 'https://dagogobucket.s3.eu-west-2.amazonaws.com/co-op-vid.mp4'
 const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 
 
- const video3Ref = useRef('')
+ /*const video3Ref = useRef('')
   const video2Ref = useRef('')
   const video1Ref = useRef('')
    
@@ -39,7 +39,7 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
      video3Ref.current.play()
      video2Ref.current.play()
      video1Ref.current.play()
-   },[])
+   },[])*/
 
    
 
@@ -82,16 +82,17 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
   <div className="portfolio__item-image">
   {/*<img src={IMG3} alt="portfolio item 1"  />*/}
   
-   <video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
+   {/*<video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
       <source src={video1} type="video/mp4"/>
-  </video>
+  </video>*/}
     {/*<VideoPlayer video ={VID1} classCall={"bway-page-vid"}/>*/}
-    {/*<ReactPlayer url='https://dagogobucket.s3.eu-west-2.amazonaws.com/bway-main-page.mp4'
+    <ReactPlayer url={video1}
        playing={true}
         loop={true}
         muted={true}
         controls={false}
-  height ={"180px"} /> */}
+        playsinline={true}
+        height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> 
 
 </div>
   <h3> Bank Webpage</h3>
@@ -125,11 +126,19 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
   {/*<img src={IMG5} alt="portfolio item 5"  />*/}
-  <video height="270px" muted autoplay playsinline loop  preload="true" ref={video2Ref}>
+  {/*<video height="270px" muted autoplay playsinline loop  preload="true" ref={video2Ref}>
       <source src={video2} type="video/mp4"/>
-    </video>
+    </video>*/}
 
    {/*<VideoPlayer video ={VID2} className={"coop-vid"}/>*/}
+
+   <ReactPlayer url={video2}
+       playing={true}
+        loop={true}
+        muted={true}
+        controls={false}
+        playsinline={true}
+        height ={"50%"} width={"100%"}  className="portfolio__adjust-image" /> 
 </div>
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
@@ -203,11 +212,17 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
   {/*<img src={IMG10} alt="portfolio item 10"  />*/}
- <video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
+ {/*<video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
       <source src={video3} type="video/mp4"/>
-    </video>
+    </video>*/}
   {/*<VideoPlayer video ={VID3} className={"coop-vid"}/>*/}
-    
+  <ReactPlayer url={video3}
+       playing={true}
+        loop={true}
+        muted={true}
+        controls={false}
+        playsinline={true}
+  height ={"50%"} width={"100%"} className="portfolio__adjust-image" /> 
   </div>
   <h3>Neumorphic Calculator</h3>
   <div className="portfolio__item-cta">
