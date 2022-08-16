@@ -4,6 +4,7 @@ export default function AutoPlaySilentVideo(props) {
     const videoRef = useRef(undefined);
     useEffect(() => {
         videoRef.current.defaultMuted = true;
+        videoRef.current.play()
     })
     return (
         <video
