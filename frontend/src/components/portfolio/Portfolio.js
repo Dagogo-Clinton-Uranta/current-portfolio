@@ -1,5 +1,6 @@
 import React,{useRef,useEffect} from 'react'
 import ReactPlayer from 'react-player'
+import Iframe from 'react-iframe'
 
 import './portfolio.css'
 import VideoPlayer from '../../components/videoPlayer.js'
@@ -33,13 +34,13 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 
  /*const video3Ref = useRef('')
   const video2Ref = useRef('')
-  const video1Ref = useRef('')
+  const video1Ref = useRef('')*/
    
    useEffect(()=>{
-     video3Ref.current.play()
+    /* video3Ref.current.play()
      video2Ref.current.play()
-     video1Ref.current.play()
-   },[])*/
+     video1Ref.current.play()*/
+   },[])
 
    
 
@@ -86,13 +87,15 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
       <source src={video1} type="video/mp4"/>
   </video>*/}
     {/*<VideoPlayer video ={VID1} classCall={"bway-page-vid"}/>*/}
-    <ReactPlayer url={video1}
+    {/*<ReactPlayer url={video1}
        playing={true}
         loop={true}
         muted={true}
         controls={false}
         playsinline={true}
-        height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> 
+height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
+
+<iframe className="portfolio__adjust-image" src="https://player.vimeo.com/video/739978384?h=49b34a7641&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;controls=0&amp;muted=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" controls="0"  allow="autoplay;"  title="bway-main-page.mp4"></iframe>
 
 </div>
   <h3> Bank Webpage</h3>
@@ -132,13 +135,15 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 
    {/*<VideoPlayer video ={VID2} className={"coop-vid"}/>*/}
 
-   <ReactPlayer url={video2}
+   {/*<ReactPlayer url={video2}
        playing={true}
         loop={true}
         muted={true}
         controls={false}
         playsinline={true}
-        height ={"50%"} width={"100%"}  className="portfolio__adjust-image" /> 
+  height ={"50%"} width={"100%"}  className="portfolio__adjust-image" /> */}
+
+  <iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/739982715?h=30455e7e64&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>
 </div>
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
@@ -186,7 +191,7 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
   <h3>Laravel Job Board</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio8"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  {/*<a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>*/}
+ <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
   </div>
  </article>
 
@@ -197,7 +202,7 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
   <h3>Object-Oriented Content Management System</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio9"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  {/* <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>*/}
+   <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
   </div>
  </article>
  </div>
@@ -216,14 +221,15 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
       <source src={video3} type="video/mp4"/>
     </video>*/}
   {/*<VideoPlayer video ={VID3} className={"coop-vid"}/>*/}
-  <ReactPlayer url={video3}
+  {/*<ReactPlayer url={video3}
        playing={true}
         loop={true}
         muted={true}
         controls={false}
         playsinline={true}
-  height ={"50%"} width={"100%"} className="portfolio__adjust-image" /> 
-  </div>
+  height ={"50%"} width={"100%"} className="portfolio__adjust-image" /> */}
+  
+  </div><iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/740093923?h=fe6a194ccd&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>
   <h3>Neumorphic Calculator</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio10"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
