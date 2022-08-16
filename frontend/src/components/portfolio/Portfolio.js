@@ -79,7 +79,7 @@ const Portfolio = () => {
    {/*<video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
       <source src={VID1} type="video/mp4"/>
   </video>*/}
-    <VideoPlayer video ={VID1} className={"bway-page-vid"}/>
+    <VideoPlayer video ={VID1} classCall={"bway-page-vid"}/>
 
 </div>
   <h3> Bank Webpage</h3>
