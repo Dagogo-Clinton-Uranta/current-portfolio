@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from 'react'
-
+import ReactPlayer from 'react-player'
 
 import './portfolio.css'
 import VideoPlayer from '../../components/videoPlayer.js'
@@ -26,16 +26,22 @@ import {Link} from "react-router-dom";
 
 const Portfolio = () => {
 
-  const video3Ref = useRef('')
+const video1 = 'https://dagogobucket.s3.eu-west-2.amazonaws.com/bway-main-page.mp4'
+const video2 = 'https://dagogobucket.s3.eu-west-2.amazonaws.com/co-op-vid.mp4'
+const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
+
+
+ const video3Ref = useRef('')
   const video2Ref = useRef('')
   const video1Ref = useRef('')
    
-   /*useEffect(()=>{
+   useEffect(()=>{
      video3Ref.current.play()
      video2Ref.current.play()
      video1Ref.current.play()
-   },[])*/
+   },[])
 
+   
 
   return (
 <section id='portfolio'>
@@ -76,10 +82,16 @@ const Portfolio = () => {
   <div className="portfolio__item-image">
   {/*<img src={IMG3} alt="portfolio item 1"  />*/}
   
-   {/*<video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
-      <source src={VID1} type="video/mp4"/>
-  </video>*/}
-    <VideoPlayer video ={VID1} classCall={"bway-page-vid"}/>
+   <video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
+      <source src={video1} type="video/mp4"/>
+  </video>
+    {/*<VideoPlayer video ={VID1} classCall={"bway-page-vid"}/>*/}
+    {/*<ReactPlayer url='https://dagogobucket.s3.eu-west-2.amazonaws.com/bway-main-page.mp4'
+       playing={true}
+        loop={true}
+        muted={true}
+        controls={false}
+  height ={"180px"} /> */}
 
 </div>
   <h3> Bank Webpage</h3>
@@ -113,11 +125,11 @@ const Portfolio = () => {
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
   {/*<img src={IMG5} alt="portfolio item 5"  />*/}
-  {/*<video height="270px" muted autoplay playsinline loop  preload="true" ref={video2Ref}>
-      <source src={VID2} type="video/mp4"/>
-    </video>*/}
+  <video height="270px" muted autoplay playsinline loop  preload="true" ref={video2Ref}>
+      <source src={video2} type="video/mp4"/>
+    </video>
 
-    <VideoPlayer video ={VID2} className={"coop-vid"}/>
+   {/*<VideoPlayer video ={VID2} className={"coop-vid"}/>*/}
 </div>
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
@@ -191,10 +203,10 @@ const Portfolio = () => {
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
   {/*<img src={IMG10} alt="portfolio item 10"  />*/}
- {/*<video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
-      <source src={VID3} type="video/mp4"/>
-    </video>*/}
-  <VideoPlayer video ={VID3} className={"coop-vid"}/>
+ <video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
+      <source src={video3} type="video/mp4"/>
+    </video>
+  {/*<VideoPlayer video ={VID3} className={"coop-vid"}/>*/}
     
   </div>
   <h3>Neumorphic Calculator</h3>
