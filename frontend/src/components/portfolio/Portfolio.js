@@ -95,8 +95,8 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
         playsinline={true}
 height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
 
-<iframe className="portfolio__adjust-image" src="https://player.vimeo.com/video/739978384?h=49b34a7641&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;controls=0&amp;muted=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" controls="0"  allow="autoplay;"  title="bway-main-page.mp4"></iframe>
-
+{/*<iframe className="portfolio__adjust-image" src="https://player.vimeo.com/video/739978384?h=49b34a7641&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;controls=0&amp;muted=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" controls="0"  allow="autoplay;"  title="bway-main-page.mp4"></iframe>*/}
+<div className="portfolio__item-image-display-block"><div id="faux-gif"></div></div>
 </div>
   <h3> Bank Webpage</h3>
   
@@ -143,7 +143,8 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
         playsinline={true}
   height ={"50%"} width={"100%"}  className="portfolio__adjust-image" /> */}
 
-  <iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/739982715?h=30455e7e64&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>
+ {/*<iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/739982715?h=30455e7e64&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>*/}
+ <div className="portfolio__item-image-display-block"><div id="faux-gif"></div></div>
 </div>
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
@@ -215,7 +216,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
 
  <div className="container portfolio__container">
  <article className="portfolio__item" >
-  <div className="portfolio__item-image">
+  <div className="portfolio__item-image" >
   {/*<img src={IMG10} alt="portfolio item 10"  />*/}
  {/*<video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
       <source src={video3} type="video/mp4"/>
@@ -228,8 +229,11 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
         controls={false}
         playsinline={true}
   height ={"50%"} width={"100%"} className="portfolio__adjust-image" /> */}
+   <div className="portfolio__item-image-display-block"><div id="faux-gif"></div></div>
+  </div>
   
-  </div><iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/740093923?h=fe6a194ccd&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>
+  {/*<iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/740093923?h=fe6a194ccd&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>*/}
+
   <h3>Neumorphic Calculator</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio10"}><a href="https://github.com" className="btn">Project Summary</a></Link> 

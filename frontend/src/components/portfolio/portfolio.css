@@ -14,8 +14,16 @@
     transition:var(--transition);
 }
 
+.portfolio__item-image-display-block{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+
+
 .portfolio__item-image img{
-        
+       
     border-radius:1rem;
     /*height: 200px;*/
 }
@@ -31,6 +39,44 @@
     border-radius:1rem;
     
 }
+
+/*============ MY FAKE GIF ================*/
+
+#faux-gif {
+    position: relative;
+    top: 0; left: 3%;  bottom: 0;
+    border-radius: 1rem;
+    margin: auto;
+    background-image: url('../../assets/c1.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 300px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    width: 100%;
+    height: 100%;
+    animation: giffy 1s infinite linear;
+  }
+  
+  #faux-gif:hover {
+    animation-play-state:paused;
+  }
+  
+  @keyframes giffy {
+    0%   { background-image: url('../../assets/c1.png'); } 
+    11.11%  { background-image: url('../../assets/c2.png'); }
+    22.22%  { background-image: url('../../assets/c3.png');}
+    33.32%  { background-image: url('../../assets/c4.png'); }
+    44.43%  { background-image: url('../../assets/c5.png'); }
+    55.54%  { background-image: url('../../assets/c6.png'); }
+    66.65%  { background-image: url('../../assets/c7.png'); }
+    77.76% { background-image: url('../../assets/c8.png'); }
+    88.87% { background-image: url('../../assets/c9.png'); }
+    99.98%   { background-image: url('../../assets/c1.png'); } 
+    100%   { background-image: url('../../assets/c1.png'); } 
+  }
+
+  /* ====================== MY FAKE GIF ENDING ==================*/
 
 .portfolio__item:hover {
     border-color:var(--color-primary-variant);
