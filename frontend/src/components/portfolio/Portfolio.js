@@ -70,7 +70,7 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 
 
 const [transClass,setTransClass] = useState(false);
-const [changeImage,setChangeImage] = useState(IMG21)
+const [changeImage,setChangeImage] = useState(IMG22)
 const [changeBw,setChangeBw] = useState(IMG31)
  /*const video3Ref = useRef('')
   const video2Ref = useRef('')
@@ -237,11 +237,11 @@ const [changeBw,setChangeBw] = useState(IMG31)
          },700)
 
          setTimeout(function(){
-          setChangeImage(IMG21)
+          setChangeImage(IMG22)
          },800)
 
          setTimeout(function(){
-          setChangeImage(IMG21)
+          setChangeImage(IMG22)
          },900)
       }
       
