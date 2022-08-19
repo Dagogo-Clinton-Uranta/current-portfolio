@@ -18,6 +18,15 @@
     position: relative;
     width: 300px;
     height: 300px;
+    backface-visibility: hidden;
+    transform:translate3d(0.1px, 0.1px, 0.1px);
+    -webkit-transform: translate3d(0.1px, 0.1px, 0.1px);
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+
+    /*new stuff*/
+    -webkit-backface-visibility: hidden;
+  
 }
 
 
@@ -26,6 +35,11 @@
        
     border-radius:1rem;
     /*height: 200px;*/
+}
+
+.co-op-fade{
+    border-radius:1rem;
+    height: 200px;
 }
 
 .portfolio__item-image video{
@@ -55,12 +69,32 @@
     background-position-y: 50%;
     width: 100%;
     height: 100%;
-    animation: giffy 1s infinite linear;
+    animation: giffy 1s  infinite linear;
+    z-index:0;
+    transform: translateZ(0.1px);
+    -webkit-transform: translate3d(0.1px, 0.1px, 0.1px);
+    transition:  -webkit-transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+    
+    
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+   
+   
+  }
+
+  .faux-gif-translate {
+    transform: translateZ(0.1px);
+    -webkit-transform: translate3d(0.1px, 0.1px, 0.1px);
+    transition:  -webkit-transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+    
+   
+    
   }
   
-  #faux-gif:hover {
+  /*#faux-gif:hover {
     animation-play-state:paused;
-  }
+  }*/
   
   @keyframes giffy {
     0%   { background-image: url('../../assets/c1.png'); } 
@@ -74,6 +108,20 @@
     88.87% { background-image: url('../../assets/c9.png'); }
     99.98%   { background-image: url('../../assets/c1.png'); } 
     100%   { background-image: url('../../assets/c1.png'); } 
+  }
+
+  @-webkit-keyframes giffy {
+    0%   { -webkit-background-image: url('../../assets/c1.png'); } 
+    11.11%  {-webkit-background-image: url('../../assets/c2.png'); }
+    22.22%  { -webkit-background-image: url('../../assets/c3.png');}
+    33.32%  { -webkit-background-image: url('../../assets/c4.png'); }
+    44.43%  { -webkit-background-image: url('../../assets/c5.png'); }
+    55.54%  { -webkit-background-image: url('../../assets/c6.png'); }
+    66.65%  { -webkit-background-image: url('../../assets/c7.png'); }
+    77.76% { -webkit-background-image: url('../../assets/c8.png'); }
+    88.87% { -webkit-background-image: url('../../assets/c9.png'); }
+    99.98%   { -webkit-background-image: url('../../assets/c1.png'); } 
+    100%   { -webkit-background-image: url('../../assets/c1.png'); } 
   }
 
   /* ====================== MY FAKE GIF ENDING ==================*/

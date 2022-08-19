@@ -1,12 +1,13 @@
-import React,{useRef,useEffect} from 'react'
-import ReactPlayer from 'react-player'
-import Iframe from 'react-iframe'
+import React,{useRef,useEffect,useState} from 'react'
+import Carousel from 'fade-carousel';
+import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 
 import './portfolio.css'
-import VideoPlayer from '../../components/videoPlayer.js'
+
 import IMG1 from '../../assets/cinnamon2.png'
 import IMG2 from '../../assets/barbucks2.png'
-//import IMG3 from '../../assets/bway-main-page.gif'
+import IMG3 from '../../assets/c3.png'
 import IMG4 from '../../assets/chat-app2.png'
 //import IMG5 from '../../assets/bway-cop-op.gif'
 import IMG6 from '../../assets/flacs-carpark2.png'
@@ -16,11 +17,47 @@ import IMG9 from '../../assets/oop-dalibor1.png'
 //import IMG10 from '../../assets/calc-3.gif'
 import IMG11 from '../../assets/chat-app2.png'
 
-//import VID1 from '../../assets/bway-main-page.mp4'
-//import VID2 from '../../assets/co-op-vid.mp4'
-//import VID3 from '../../assets/calc3.mp4'
 
+/*co-op slideshow */
+import IMG12 from '../../assets/co1.png'
+import IMG13 from '../../assets/co2.png'
+import IMG14 from '../../assets/co3.png'
 
+/*calc slideshow */
+import IMG21 from '../../assets/c1.png'
+import IMG22 from '../../assets/c2.png'
+import IMG23 from '../../assets/c3.png'
+import IMG24 from '../../assets/c4.png'
+import IMG25 from '../../assets/c5.png'
+import IMG26 from '../../assets/c6.png'
+import IMG27 from '../../assets/c7.png'
+import IMG28 from '../../assets/c8.png'
+import IMG29 from '../../assets/c9.png'
+
+/*bway slideshow */
+import IMG31 from '../../assets/bw1.png'
+import IMG32 from '../../assets/bw2.png'
+import IMG33 from '../../assets/bw3.png'
+import IMG34 from '../../assets/bw4.png'
+import IMG35 from '../../assets/bw5.png'
+import IMG36 from '../../assets/bw6.png'
+import IMG37 from '../../assets/bw7.png'
+import IMG38 from '../../assets/bw8.png'
+import IMG39 from '../../assets/bw9.png'
+import IMG40 from '../../assets/bw10.png'
+import IMG41 from '../../assets/bw11.png'
+import IMG42 from '../../assets/bw12.png'
+import IMG43 from '../../assets/bw13.png'
+import IMG44 from '../../assets/bw14.png'
+import IMG45 from '../../assets/bw15.png'
+import IMG46 from '../../assets/bw16.png'
+import IMG47 from '../../assets/bw17.png'
+import IMG48 from '../../assets/bw18.png'
+import IMG49 from '../../assets/bw19.png'
+import IMG50 from '../../assets/bw20.png'
+import IMG51 from '../../assets/bw21.png'
+import IMG52 from '../../assets/bw22.png'
+import IMG53 from '../../assets/bw23.png'
 
 
 import {Link} from "react-router-dom";
@@ -32,14 +69,185 @@ const video2 = 'https://dagogobucket.s3.eu-west-2.amazonaws.com/co-op-vid.mp4'
 const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 
 
+const [transClass,setTransClass] = useState(false);
+const [changeImage,setChangeImage] = useState(IMG21)
+const [changeBw,setChangeBw] = useState(IMG31)
  /*const video3Ref = useRef('')
   const video2Ref = useRef('')
   const video1Ref = useRef('')*/
+
+  /*for co-op*/
+  const urls= [IMG12, IMG13, IMG14];
+  const divStyle = {
+    height: "270px",
+    width: "400px",
+    backgroundColor: '#f2f2f2',
+    borderRadius:"1rem"
+  }
+  const imageStyle = {
+    height: '100%',
+    width: 'auto',
+    justifySelf: 'center'
+  }
+
    
    useEffect(()=>{
     /* video3Ref.current.play()
      video2Ref.current.play()
      video1Ref.current.play()*/
+
+  /*for bway main */
+    setInterval(
+
+      ()=>{
+        setTimeout(function(){
+          setChangeBw(IMG32)
+         },100)
+
+         setTimeout(function(){
+          setChangeBw(IMG33)
+         },200)
+
+         setTimeout(function(){
+          setChangeBw(IMG34)
+         },300)
+
+         setTimeout(function(){
+          setChangeBw(IMG35)
+         },400)
+
+         setTimeout(function(){
+          setChangeBw(IMG36)
+         },500)
+
+         setTimeout(function(){
+          setChangeBw(IMG37)
+         },600)
+
+         setTimeout(function(){
+          setChangeBw(IMG38)
+         },700)
+
+         setTimeout(function(){
+          setChangeBw(IMG39)
+         },800)
+
+         setTimeout(function(){
+          setChangeBw(IMG40)
+         },900)
+
+         setTimeout(function(){
+          setChangeBw(IMG41)
+         },1000)
+
+         setTimeout(function(){
+          setChangeBw(IMG42)
+         },1100)
+
+         setTimeout(function(){
+          setChangeBw(IMG43)
+         },1200)
+
+         setTimeout(function(){
+          setChangeBw(IMG44)
+         },1300)
+
+         setTimeout(function(){
+          setChangeBw(IMG45)
+         },1400)
+
+         setTimeout(function(){
+          setChangeBw(IMG46)
+         },1800)
+
+         setTimeout(function(){
+          setChangeBw(IMG47)
+         },1900)
+
+         setTimeout(function(){
+          setChangeBw(IMG48)
+         },2000)
+
+         setTimeout(function(){
+          setChangeBw(IMG49)
+         },2100)
+
+         setTimeout(function(){
+          setChangeBw(IMG50)
+         },2200)
+
+         setTimeout(function(){
+          setChangeBw(IMG51)
+         },2300)
+
+         setTimeout(function(){
+          setChangeBw(IMG52)
+         },2400)
+
+        setTimeout(function(){
+          setChangeBw(IMG53)
+         },2500)
+     
+         setTimeout(function(){
+          setChangeBw(IMG53)
+         },2600)
+
+         setTimeout(function(){
+          setChangeBw(IMG53)
+         },2700)
+        
+      }
+      
+    ,3000)
+
+/*for calc */
+    setInterval(
+
+      ()=>{
+        setTimeout(function(){
+          setChangeImage(IMG22)
+         },100)
+
+         setTimeout(function(){
+          setChangeImage(IMG23)
+         },200)
+
+         setTimeout(function(){
+          setChangeImage(IMG24)
+         },300)
+
+         setTimeout(function(){
+          setChangeImage(IMG25)
+         },300)
+
+         setTimeout(function(){
+          setChangeImage(IMG26)
+         },400)
+
+         setTimeout(function(){
+          setChangeImage(IMG27)
+         },500)
+
+         setTimeout(function(){
+          setChangeImage(IMG28)
+         },600)
+
+         setTimeout(function(){
+          setChangeImage(IMG29)
+         },700)
+
+         setTimeout(function(){
+          setChangeImage(IMG21)
+         },800)
+
+         setTimeout(function(){
+          setChangeImage(IMG21)
+         },900)
+      }
+      
+    ,1000)
+
+
    },[])
 
    
@@ -81,7 +289,7 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
-  {/*<img src={IMG3} alt="portfolio item 1"  />*/}
+   <img src={changeBw} alt="portfolio item 1"  />
   
    {/*<video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
       <source src={video1} type="video/mp4"/>
@@ -96,7 +304,7 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
 
 {/*<iframe className="portfolio__adjust-image" src="https://player.vimeo.com/video/739978384?h=49b34a7641&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;controls=0&amp;muted=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" controls="0"  allow="autoplay;"  title="bway-main-page.mp4"></iframe>*/}
-<div className="portfolio__item-image-display-block"><div id="faux-gif"></div></div>
+{/*<div className="portfolio__item-image-display-block"><div id="faux-gif"  className={transClass? 'faux-gif-translate':'hi'} ></div></div>*/}
 </div>
   <h3> Bank Webpage</h3>
   
@@ -133,18 +341,24 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
       <source src={video2} type="video/mp4"/>
     </video>*/}
 
-   {/*<VideoPlayer video ={VID2} className={"coop-vid"}/>*/}
+<Carousel divStyle={divStyle} delay={100000} mode={"fade"} >
+        {urls.map((url, index) => (
+          <div key={index} style={imageStyle}>
+            <img
+              src={url}
+              style={{ width: "100%", height: "auto" }}
+              alt="asdada"
+              
+            />
+          </div>
+        ))}
+      </Carousel>
 
-   {/*<ReactPlayer url={video2}
-       playing={true}
-        loop={true}
-        muted={true}
-        controls={false}
-        playsinline={true}
-  height ={"50%"} width={"100%"}  className="portfolio__adjust-image" /> */}
+
+  
 
  {/*<iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/739982715?h=30455e7e64&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>*/}
- <div className="portfolio__item-image-display-block"><div id="faux-gif"></div></div>
+ {/*<div className="portfolio__item-image-display-block"><div id="faux-gif"  className={transClass? 'faux-gif-translate':'hi'}></div></div>*/}
 </div>
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
@@ -217,7 +431,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
  <div className="container portfolio__container">
  <article className="portfolio__item" >
   <div className="portfolio__item-image" >
-  {/*<img src={IMG10} alt="portfolio item 10"  />*/}
+  <img src={changeImage} alt="portfolio item 10"  />
  {/*<video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
       <source src={video3} type="video/mp4"/>
     </video>*/}
@@ -229,7 +443,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
         controls={false}
         playsinline={true}
   height ={"50%"} width={"100%"} className="portfolio__adjust-image" /> */}
-   <div className="portfolio__item-image-display-block"><div id="faux-gif"></div></div>
+   {/*<div className="portfolio__item-image-display-block"><div id="faux-gif" className={transClass? 'faux-gif-translate':'hi'}></div></div>*/}
   </div>
   
   {/*<iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/740093923?h=fe6a194ccd&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>*/}
