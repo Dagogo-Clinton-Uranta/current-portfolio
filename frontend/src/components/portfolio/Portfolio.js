@@ -1,7 +1,6 @@
-import React,{useRef,useEffect,useState} from 'react'
-import Carousel from 'fade-carousel';
-import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import React,{useEffect,useState} from 'react'
+
+import ImageFadeIn from "react-image-fade-in";
 
 import './portfolio.css'
 
@@ -69,13 +68,13 @@ const video2 = 'https://dagogobucket.s3.eu-west-2.amazonaws.com/co-op-vid.mp4'
 const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 
 
-const [transClass,setTransClass] = useState(false);
+
 const [changeImage,setChangeImage] = useState(IMG22)
 const [changeBw,setChangeBw] = useState(IMG31)
- /*const video3Ref = useRef('')
-  const video2Ref = useRef('')
-  const video1Ref = useRef('')*/
-
+const [changeCo1,setChangeCo1] = useState(true)
+const [changeCo2,setChangeCo2] = useState(false)
+const [changeCo3,setChangeCo3] = useState(false)
+ 
   /*for co-op*/
   const urls= [IMG12, IMG13, IMG14];
   const divStyle = {
@@ -92,10 +91,34 @@ const [changeBw,setChangeBw] = useState(IMG31)
 
    
    useEffect(()=>{
-    /* video3Ref.current.play()
-     video2Ref.current.play()
-     video1Ref.current.play()*/
 
+    /*FOR CO-OP*/ 
+    setInterval(
+
+      ()=>{
+       
+         
+         setTimeout(function(){
+          setChangeCo1(false)
+          setChangeCo2(true)
+          setChangeCo3(false)
+         },2000)
+
+         setTimeout(function(){
+          setChangeCo1(false)
+          setChangeCo2(false)
+          setChangeCo3(true)
+         },4000)
+
+         setTimeout(function(){
+          setChangeCo1(true)
+          setChangeCo2(false)
+          setChangeCo3(false)
+         },6000)
+
+        },8000)
+
+   
   /*for bway main */
     setInterval(
 
@@ -205,7 +228,7 @@ const [changeBw,setChangeBw] = useState(IMG31)
 
       ()=>{
         setTimeout(function(){
-          setChangeImage(IMG22)
+          setChangeImage(IMG23)
          },100)
 
          setTimeout(function(){
@@ -236,16 +259,10 @@ const [changeBw,setChangeBw] = useState(IMG31)
           setChangeImage(IMG29)
          },700)
 
-         setTimeout(function(){
-          setChangeImage(IMG22)
-         },800)
-
-         setTimeout(function(){
-          setChangeImage(IMG22)
-         },900)
+         
       }
       
-    ,1000)
+    ,700)
 
 
    },[])
@@ -341,20 +358,22 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
       <source src={video2} type="video/mp4"/>
     </video>*/}
 
-<Carousel divStyle={divStyle} delay={100000} mode={"fade"} >
+{/*<Carousel divStyle={divStyle} delay={1000} mode={"fade"} >
         {urls.map((url, index) => (
           <div key={index} style={imageStyle}>
             <img
-              src={url}
+              src={changeCo}
               style={{ width: "100%", height: "auto" }}
               alt="asdada"
               
             />
           </div>
         ))}
-      </Carousel>
+      </Carousel>*/}
 
-
+  {changeCo1 && <ImageFadeIn height={300} src={IMG12} /> }
+{changeCo2 &&<ImageFadeIn  height={300} src={IMG13} /> }
+{changeCo3 &&<ImageFadeIn height={300} src={IMG14} />}
   
 
  {/*<iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/739982715?h=30455e7e64&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>*/}
