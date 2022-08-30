@@ -27,7 +27,7 @@ import Footer from '../../components/footer/Footer.js'
 
 const Item1 = () => {
     return (
-      <>
+      <div onLoad={()=>{window.scrollTo(0, 130)}}>
 
 <section id='testimonials'>
      
@@ -191,7 +191,7 @@ const Item1 = () => {
       
     <Footer/>
       
-      </>
+      </div>
     )
   }
   

@@ -30,7 +30,7 @@ import Footer from '../../components/footer/Footer.js'
 
 const Item1 = () => {
     return (
-      <>
+      <div onLoad={()=>{window.scrollTo(0, 130);}}>
 
 <section id='testimonials'>
       <div style={{display:"flex",justifyContent:"center",margin:"4rem"}}>
@@ -199,7 +199,7 @@ const Item1 = () => {
       
     <Footer/>
       
-      </>
+      </div>
     )
   }
   
