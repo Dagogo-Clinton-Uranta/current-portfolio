@@ -346,7 +346,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
 </div>
   <h3>Chat Room App</h3>
   <div className="portfolio__item-cta">
-  <Link to={"/portfolio4"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <Link to={"/portfolio4/"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
   <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
   </div>
  </article>

@@ -26,13 +26,13 @@ const About = () => {
           <article className='about__card'>
           <FaAward className='about__icon'/>
            <h5>Experience</h5>
-           <small>3+ Years Working Experience</small>
+           <small>3 Years Working Experience</small>
           </article>
          
           <article className='about__card'>
           <FiUsers className='about__icon'/>
            <h5>Clients</h5>
-           <small>30+ Worldwide </small>
+           <small>13+ Worldwide </small>
           </article>
 
           <article className='about__card'>
@@ -42,10 +42,7 @@ const About = () => {
           </article>
         </div>
 
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-           Magni molestiae eum eveniet ex alias nemo culpa delectus 
-           quasi iusto aspernatur, reiciendis minima eos modi quisquam 
-           adipisci. Porro error nemo pariatur?
+        <p>I pride myself in creating websites and online experiences that feel most authentic to the client. I leave no stone unturned when it comes to what I can deliver, both in terms of efficiency and user experience . Like what you see? Let's get in touch !
            
         </p>
       

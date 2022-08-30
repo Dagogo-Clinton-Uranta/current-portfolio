@@ -35,15 +35,15 @@ const Testimonials = () => {
    {/*1 */}
     <SwiperSlide className="testimonial">
      <div className="client__avatar">
-     <img src={AVTR6} alt="avatar one" />
+     <img src={AVTR8} alt="avatar one" />
      </div>
 
      
-     <h5 className="client__name">Amber Roe</h5>
+     <h5 className="client__name">Yula Wojcik</h5>
      <small className="client__review">
-      Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Sint totam sunt soluta eius 
-      laboriosam ab eos exercitationem, nobis ex placeat!
+      Mr.Dagogo blew me away with the website he created for me.
+       I explained how I wanted to come across to those viewing my portfolio, but was pleasantly surprised by the manner 
+       he displayed my work pieces in an easily digestible manner!
       </small>
 
     </SwiperSlide>
@@ -57,9 +57,10 @@ const Testimonials = () => {
 
      <h5 className="client__name">Dapo Ojikutu</h5>
      <small className="client__review">
-      Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Sint totam sunt soluta eius 
-      laboriosam ab eos exercitationem, nobis ex placeat!
+      Dagogo helped me with a client's law firm website. He really sped up 
+      my work time, and what impressed me the most was his ability to communicate 
+      the coding concepts I was struggling with. I learnt so easily from him and I 
+      look forward to working with him again.
       </small>
 
     </SwiperSlide>
@@ -67,14 +68,13 @@ const Testimonials = () => {
  {/*3 */}
     <SwiperSlide className="testimonial">
      <div className="client__avatar">
-     <img src={AVTR8} alt="avatar one" />
+     <img src={AVTR6} alt="avatar one" />
      </div>
     
-     <h5 className="client__name">Yula Wojcik</h5>
+     <h5 className="client__name">Amber Roe</h5>
      <small className="client__review">
-      Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Sint totam sunt soluta eius 
-      laboriosam ab eos exercitationem, nobis ex placeat!
+      I got my website done from Dagogo, and it was simple and so
+       professional looking! I recommend him to every one. 
       </small>
 
     </SwiperSlide>
@@ -87,9 +87,10 @@ const Testimonials = () => {
     
      <h5 className="client__name">Wale Atekoja</h5>
      <small className="client__review">
-      Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Sint totam sunt soluta eius 
-      laboriosam ab eos exercitationem, nobis ex placeat!
+      Mr Dagogo Created a website my laundromat. I was completely 
+      satisfied with what I got, as he got my requirements to a tee,
+       including a reliable communcation system that goes straight to my phone. 
+       I am really grateful for this !
       </small>
 
     </SwiperSlide>

@@ -17,53 +17,50 @@ const Services = () => {
         <ul className="service__list">
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Brand Identification and Representation</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>User Focused Testing</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Figma Website Prototyping</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>General website theming and consistency </p>
           </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+         
         </ul>
       </article>
       {/*END OF UI/UX*/}
 
       <article className="service">
         <div className="service__head">
-          <h3>UI/UX Design</h3>
+          <h3>Frontend Web Development</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Responsive, Mobile First Design</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>React Class Based and Functional Based Components</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>State Management with Redux and Context API</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Material UI and Bootstrap theming</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>CSS and SVG animations</p>
           </li>
         </ul>
       </article>
@@ -72,30 +69,27 @@ const Services = () => {
 
       <article className="service">
         <div className="service__head">
-          <h3>Web Development</h3>
+          <h3>Backend and Data Storage</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Relational and Non-Relational Database Planning(MySQl and MongoDB)</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>User Login and Information Management on your platform</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Model View Controller Architecture.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Amazon Web Services S3 (for image manipulation and storage)</p>
           </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+          
         </ul>
       </article>
       {/*END OF web development*/}
@@ -117,15 +111,15 @@ const Services = () => {
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>heroku.</p>
+            <p>Heroku Hosting.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Continuous Deployment and Version Control with Git</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Netlify </p>
           </li>
         </ul>
       </article>

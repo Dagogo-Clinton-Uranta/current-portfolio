@@ -29,10 +29,10 @@ const Item1 = () => {
     return (
       <>
 
-<section id='testimonials'>
+<section >
      
 <div style={{display:"flex",justifyContent:"center",margin:"4rem"}}>
-       <Link to={"/#portfolio"}><a href="#" className="btn btn-primary">Home</a></Link> 
+       <Link to={"/#portfolio"}><a href="#" id='testimonials' className="btn btn-primary">Home</a></Link> 
      </div>
      
      
