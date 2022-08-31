@@ -76,6 +76,9 @@ header {
     font-size:1.1rem;
 }
 
+.mobile-header-margin {
+    margin-bottom: 600px;
+}
 
 /* ======================== MEDIA QUERIES FOR HEADER (MEDIUM DEVICES) ======================*/
 
@@ -97,9 +100,8 @@ header {
      
     header {
         height:100vh;
-        margin-bottom: 400px;
-       
-        
+        /*margin-bottom: 600px;*/
+           
      }
     
      .header__socials, .scroll__down{

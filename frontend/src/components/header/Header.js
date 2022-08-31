@@ -4,9 +4,11 @@ import CTA from './CTA'
 import ME from '../../assets/dagus.png'
 import HeaderSocials from './HeaderSocials'
 
+import {  isMobile } from 'react-device-detect'
+
 const Header = () => {
   return (
-    <header>
+   <header className={isMobile && 'mobile-header-margin'}>
      <div className="container header__container">
        <h5>Hello I'm</h5>
        <h1>Dagogo Clinton Uranta</h1>
