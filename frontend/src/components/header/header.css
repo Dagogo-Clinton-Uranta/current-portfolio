@@ -96,8 +96,8 @@ header {
  @media screen and (max-width:600px) {
      
     header {
-        height:120vh;
-        /*margin-bottom: 11rem;*/
+        height:100vh;
+        margin-bottom: 400px;
        
         
      }
