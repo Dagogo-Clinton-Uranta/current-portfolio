@@ -61,7 +61,7 @@ const Item1 = () => {
     <h3>Laravel Job Board</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -77,7 +77,7 @@ const Item1 = () => {
     <h3>Laravel Job Board</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>

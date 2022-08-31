@@ -38,7 +38,7 @@ const Item1 = () => {
      </div>
       
       <h5>Item 1</h5>
-      <h2>Gallery</h2>
+      <h2>Virtual Bank Design</h2>
      
    <Swiper className="gallery__container"
    //swiper js options
@@ -62,10 +62,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={isBrowser?IMG1:IMG4} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/digital-bank-frontend" className="btn">Project Code(Github)</a>
+    <a href="https://agitated-albattani-022e3c.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -78,10 +78,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={isBrowser?IMG2:IMG3} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/digital-bank-frontend" className="btn">Project Code(Github)</a>
+    <a href="https://agitated-albattani-022e3c.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -92,10 +92,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={isBrowser?IMG3:IMG5} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>(III)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/digital-bank-frontend" className="btn">Project Code(Github)</a>
+    <a href="https://agitated-albattani-022e3c.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -109,37 +109,38 @@ const Item1 = () => {
 
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Virtual Bank Web Design </h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>Design Decisions Include :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>
-            assumenda deserunt voluptas..</p>
+            <p>The theming is bright green, symbolising "growth" and "new terrain" in banking.</p>
           </li>
+          
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>A navbar is present for the whole page and each section is scrolled to when clicked.</p>
           </li>
+          
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>The page has 3 feature sections on black and white backgrounds for max contrast.</p>
           </li>
+
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+            <p>Each feature section has alternating image placement to avoid monotony.</p>
+          </li> 
+
+          
+        
         </ul>
       </article>
      
@@ -153,36 +154,36 @@ const Item1 = () => {
     
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Virtual Bank Web Design</h5>
     <h2>Technology Involved</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>The rationale for technologies used :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>All images are SVG (scalable vector graphics) to maintain image quality.</p>
+          </li>
+          
+          <li>
+            <BiCaretRight className='service__list-icon'/>
+            <p> React js was used, to easily replicate sections via component usage and for a single page load. </p>
+          </li>
+          
+          <li>
+            <BiCaretRight className='service__list-icon'/>
+            <p>React's styled components are used here, to integrate react with a dynamic style of css and media queries.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>A useState hook is used to determine the visibility of the sign in page.</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+         
+         
         </ul>
       </article>
      

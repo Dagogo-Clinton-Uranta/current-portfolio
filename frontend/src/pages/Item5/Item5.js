@@ -59,10 +59,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG1} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://bridgewayco-op.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -75,10 +75,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG2} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://bridgewayco-op.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -89,10 +89,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG3} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>(III)</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://bridgewayco-op.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -106,13 +106,13 @@ const Item1 = () => {
 
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5> Co-operative Marketplace</h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>Design Decisions include :-</h3>
         </div>
 
         <ul className="service__list">
@@ -150,13 +150,13 @@ const Item1 = () => {
     
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Co-operative Marketplace</h5>
     <h2>Technology Involved</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>The rationale for technologies used :-</h3>
         </div>
 
         <ul className="service__list">

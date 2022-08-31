@@ -288,8 +288,8 @@ const [changeCo3,setChangeCo3] = useState(false)
 </div>
   <h3>Cinnamon Bank Front End</h3>
   <div className="portfolio__item-cta">
- <Link to={"/portfolio1"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer" >Live Demo</a>
+ <Link to={"/portfolio1"}><a href="https://dagogo.xyz/portfolio1" className="btn">Project Summary</a></Link> 
+  <a href="https://agitated-albattani-022e3c.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer" >Live Webpage</a>
   </div>
  </article>
 
@@ -300,7 +300,7 @@ const [changeCo3,setChangeCo3] = useState(false)
   <h3>"Barbucks" Landing Page</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio2"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+  <a href="https://barbucks.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
 
@@ -327,7 +327,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
   
   <div className="portfolio__item-cta">
   <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+  <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  
  </article>
@@ -347,7 +347,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
   <h3>Chat Room App</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio4/"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+  <a href="https://goofy-einstein-ec2b2b.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
 
@@ -382,7 +382,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
   <h3>Online Marketplace (co-operative)</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio5"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+  <a href="https://bridgewayco-op.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
 
@@ -393,7 +393,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
   <h3>Truck Park Ticket Printer</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio6"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+  <a href="https://flacscarpark.herokuapp.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   
   </div>
  </article>
@@ -405,7 +405,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
   <h3> Bank Account Portal</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio7"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+  <a href="https://bridgewayview.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
 
@@ -425,7 +425,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
   <h3>Laravel Job Board</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio8"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
- <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+ <a href="#" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
 
@@ -436,14 +436,14 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
   <h3>Object-Oriented Content Management System</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio9"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-   <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+   <a href="#" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
  </div>
 
 
  <div className="portfolio__item__type">
- <h2>Earlier Projects</h2>
+ <h2>Animation Projects</h2>
  <div className="portfolio__divider"></div>
  </div>
 
@@ -470,7 +470,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
   <h3>Neumorphic Calculator</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio10"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+  <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
 
