@@ -1,6 +1,7 @@
 import React from 'react'
 //jsx files are for emmet shortcux, not js
 import Header from '../components/header/Header.js'
+import './Homepage.css'
 import Nav from '../components/nav/Nav.js'
 import About from '../components/about/About.js'
 import Experience from '../components/experience/Experience.js'
@@ -16,7 +17,7 @@ const Homepage = () => {
 
   return (
     <>
-    <Header />
+    <Header className="header-margin-bottom" />
     <Nav/>
     <Experience />
     <Portfolio/>
