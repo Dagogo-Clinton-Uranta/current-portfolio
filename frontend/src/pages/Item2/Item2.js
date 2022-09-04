@@ -60,7 +60,7 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG1} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
     <a href="https://barbucks.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
@@ -76,7 +76,7 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG2} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
     <a href="https://barbucks.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
@@ -90,7 +90,7 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG3} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>(III)</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
     <a href="https://barbucks.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
@@ -109,37 +109,40 @@ const Item1 = () => {
 
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Barbucks Landing Page</h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>Design Decisions Include :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-            assumenda deserunt voluptas..</p>
+           This page was made to introduce 3 major flavors of "Barbucks" (a starbucks knock off)</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Each drink choice has a description upon hovering, and when items move upwards to emphasize selection.</p>
+          </li>
+
+          <li>
+            <BiCaretRight className='service__list-icon'/>
+            <p>The plain Poppins font used in the description is used to juxtapose the expressive Oleo-Script font for the brand name "Barbucks". </p>
+          </li>
+
+          <li>
+            <BiCaretRight className='service__list-icon'/>
+            <p>On clicking each flavor, the large picture changes to the selected flavor and the description of the flavour is given.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>The description of each flavor has a text color that matches the flavor's color (for easy information association).</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+         
         </ul>
       </article>
      
@@ -153,36 +156,30 @@ const Item1 = () => {
     
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Barbucks Landing Page</h5>
     <h2>Technology Involved</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>The rationale for technologies used :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Plain HTML, CSS and Javascript were used here as the project was simple enough not to require a framework.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Semantic HTML "section" and "header" tags were used here to group  page content into sections.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p> Social Media icons are positioned at the side of the page using CSS position "absolute", and image changes are done by altering opacity values.</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+          
+         
         </ul>
       </article>
      

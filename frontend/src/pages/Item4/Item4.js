@@ -114,31 +114,24 @@ const Item1 = () => {
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Design Decisions include :-</h3>
+          <h3>Design Insights include :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-            assumenda deserunt voluptas..</p>
+            Users are first greeted with a join screen, requesting a chat room they want to join.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Upon joining, other users in that chat room are made aware of their presence via a broadcast message.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Messages can then be sent, with real time replies from other users. Upon refresh, the entire chat box clears.</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+         
         </ul>
       </article>
      
@@ -164,24 +157,26 @@ const Item1 = () => {
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>This app was created using react js, node and express js. Details for names and rooms are passed using query parameters as opposed to traditionally using props.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>React scroll to bottom library used here to allow the last sent chat bubble to always be visible.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p> React Emojify (library) is also made use of here to convert typed symbols to emojis in the input container.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Socket.io was used on the backend and socket.io-client on the front end.</p>
           </li>
+
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>On triggering of certain events the socket connections were made to broadcast a message to all users / emit to all users minus the sender.</p>
           </li>
+          
         </ul>
       </article>
      

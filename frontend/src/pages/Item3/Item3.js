@@ -122,24 +122,21 @@ const Item1 = () => {
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-            assumenda deserunt voluptas..</p>
+             A blue base color, with red highlights across the page, In accordance with the Bank's key colors.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Faces of smiling staff in abstract curves to give viewers a feeling of friendliness and smoothness associated with the bank.  </p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Mobile first design with navigation shrinking to a menu icon at certain screen widths.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Fixed "scroll to top" button to enhance the user experience concerning the length of the page.</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+         
         </ul>
       </article>
      
@@ -165,23 +162,23 @@ const Item1 = () => {
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>JQuery was used in the Hero section to animate the bank's logo with a "typing" effect.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>A carousel (made with JQuery) was also used to display company events continually.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>The contact section relies on an email submission API "FormSubmit", to send information to customer service email. </p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>The "Open An Account" button leads to a form where values are stored with browser session storage. </p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>The account form employs a signature canvas API (for capturing signatures), that sends the signature to the customer service email. </p>
           </li>
         </ul>
       </article>
