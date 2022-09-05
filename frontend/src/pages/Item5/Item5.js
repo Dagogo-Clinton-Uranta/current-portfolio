@@ -119,23 +119,24 @@ const Item1 = () => {
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-            assumenda deserunt voluptas..</p>
+            Different levels of user access (admin, user, teller) depending on database info.
+           </p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Rustic images to inspire community feeling for co-operative system. </p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Multi-step order form with security question variation(to avoid usage of bank PIN).</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Product review system to guide new buyers, and products tied via secondary key to product owner.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Color coding for order status.</p>
           </li>
         </ul>
       </article>
@@ -162,23 +163,23 @@ const Item1 = () => {
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>JSON Web Tokens as middleware to verify all routes (for overarching application security).</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Bcrypt.js library with hashing algorithm for storage of non-passwords.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Mail alerts(via nodemailer API) for all new messages and orders.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Redux for state management because of large amount of data being passed.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>MVC pattern for separation of data layer, presentation layer and business logic.</p>
           </li>
         </ul>
       </article>
