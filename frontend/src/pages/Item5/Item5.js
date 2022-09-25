@@ -163,7 +163,7 @@ const Item1 = () => {
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>JSON Web Tokens as middleware to verify all routes (for overarching application security).</p>
+            <p>JSON Web Tokens as middleware to verify all routes (for overarching application authorization).</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>

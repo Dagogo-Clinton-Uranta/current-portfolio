@@ -40,7 +40,7 @@ const Item1 = () => {
      <a href={API} download className='btn'> Download Docs</a>
      </div>
      
-      <h5>Item 6</h5>
+      <h5>Park Truck Printer</h5>
       <h2>Gallery</h2>
      
    <Swiper className="gallery__container"
@@ -65,10 +65,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG1} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href={API} download className='btn'> Download Docs</a>
+    <a href="https://flacscarpark.herokuapp.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
@@ -81,10 +81,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG2} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href={API} download className='btn'> Download Docs</a>
+    <a href="https://flacscarpark.herokuapp.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
@@ -100,37 +100,34 @@ const Item1 = () => {
 
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Park Truck Printer</h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>Design Decisions Include :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-            assumenda deserunt voluptas..</p>
+            Entrance and Exit tickets printing are available from the selection menu.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Trucks assigned to specific zones in accordance with truck type .</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>When a truck leaves (recorded via an exit ticket), That space is assigned to the next truck that arrives, regardless of position.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Project was designed to also function as an API, so either a  URL(pointing to ticket's location) or an error message was sent to the browser.</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+         
         </ul>
       </article>
      
@@ -144,36 +141,33 @@ const Item1 = () => {
     
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Park Truck Printer</h5>
     <h2>Technology Involved</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>The rationale for technologies used :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Redux was used for global state management, tracking changes over several parking zones.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Bootstrap was used for consistent theming and styles across pages.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>MongoDB cloud used in the backend for persistence of Data (for occupied car spaces ).</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Express AsyncHandler Used for more concise code on routes</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+         
         </ul>
       </article>
      

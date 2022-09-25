@@ -77,10 +77,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG2} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="http://www.bridgewayview.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
@@ -91,10 +91,10 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG3} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>( II )</h3>
     <div className="formerportfolio__item-cta">
     <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="http://www.bridgewayview.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
@@ -108,37 +108,34 @@ const Item1 = () => {
 
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Bank Account Portal</h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>Design Decisions Include :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-            assumenda deserunt voluptas..</p>
+            This Webpage was made for younger audiences so is simplistic with only one input.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>The hand drawn font "Amatic" is used, along with simple repeating background shapes, to give a "child-like" feeling.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>There is also a simplified chat that keeps track of a short string of messages.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Finally a transactions tracking list exists and it fetches transactions made by the user based on the month selected .</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+         
         </ul>
       </article>
      
@@ -152,35 +149,35 @@ const Item1 = () => {
     
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Bank Account Portal</h5>
     <h2>Technology Involved</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>The rationale for technologies used :-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p> Account data is uploaded in excel spreadsheet format and converted to JSON.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>In Node Js, the Multer library is used here, to process uploaded files</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>The MongoDB instance stores two messages per user, newer messages replace older ones.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Transaction fetching options are displayed with the current month as the first option. </p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>The corresponding 12 month cycle is replicated in the back end route, to match the selected option from the frontend.</p>
           </li>
         </ul>
       </article>
