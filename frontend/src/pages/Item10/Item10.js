@@ -58,9 +58,9 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG1} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/Dagogo-Bincom" className="btn">Project Code(Github)</a>
     <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
@@ -74,9 +74,9 @@ const Item1 = () => {
      <div className="formerportfolio__item-image">
       <img src={IMG2} alt="portfolio item 1" />
     </div>
-    <h3>Laravel Job Board</h3>
+    <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/Dagogo-Bincom" className="btn">Project Code(Github)</a>
     <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
@@ -92,37 +92,32 @@ const Item1 = () => {
 
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
+    <h5>Neumorphic Calculator</h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>Design Decisions Include:-</h3>
         </div>
 
         <ul className="service__list">
+        <li>
+            <BiCaretRight className='service__list-icon'/>
+            <p>This is a fully functional calculator with a screen glare animation.</p>
+          </li>
+          
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-            assumenda deserunt voluptas..</p>
+            CSS Box shadows to denote borders and give 3D effect.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>background image replicated in the body of the calculator to avoid hard changes in tone.</p>
           </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
+          
+         
         </ul>
       </article>
      
@@ -136,31 +131,31 @@ const Item1 = () => {
     
 
     <section id='services'>
-    <h5>Laravel Job Board</h5>
-    <h2>Technology Involved</h2>
+    <h5>Neumorphic Calculator</h5>
+    <h2>Technologies Used </h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Ticket Printing System</h3>
+          <h3>Rationale for technologies used include:-</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>CSS key frames were chiefly used, varying position of the "glare" within a one second time-frame.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Javascript evet listeners are used to scale down button sizes when clicked.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Javascript variables are also used to store previously clicked values and perform operations with them.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>An animation effect for the words was also created, bringing in the text in 40 evenly spaced intervals</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>

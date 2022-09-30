@@ -299,7 +299,7 @@ const [changeCo3,setChangeCo3] = useState(false)
 </div>
   <h3>"Barbucks" Landing Page</h3>
   <div className="portfolio__item-cta">
-  <Link to={"/portfolio2"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <Link to={"/portfolio2"}><a href="https://dagogo.xyz/portfolio2" className="btn">Project Summary</a></Link> 
   <a href="https://barbucks.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
@@ -412,12 +412,12 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
 </div>
 
  
-<div className="portfolio__item__type">
+{/*<div className="portfolio__item__type">
  <h2>PHP / Laravel / My SQL </h2>
  <div className="portfolio__divider"></div>
-</div>
+</div>*/}
 
- <div className="container portfolio__container">
+ {/*<div className="container portfolio__container">
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
   <img src={IMG8} alt="portfolio item 1"  />
@@ -439,7 +439,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
    <a href="#" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
- </div>
+ </div> */}
 
 
  <div className="portfolio__item__type">
@@ -469,7 +469,7 @@ height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
 
   <h3>Neumorphic Calculator</h3>
   <div className="portfolio__item-cta">
-  <Link to={"/portfolio10"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <Link to={"/portfolio10"}><a href="https://github.com/Dagogo-Clinton-Uranta/Dagogo-Bincom" className="btn">Project Summary</a></Link> 
   <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>

@@ -62,7 +62,7 @@ const Item1 = () => {
     </div>
     <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/practice-landing-page" className="btn">Project Code(Github)</a>
     <a href="https://barbucks.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
@@ -78,7 +78,7 @@ const Item1 = () => {
     </div>
     <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/practice-landing-page" className="btn">Project Code(Github)</a>
     <a href="https://barbucks.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
@@ -92,7 +92,7 @@ const Item1 = () => {
     </div>
     <h3>(III)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/practice-landing-page" className="btn">Project Code(Github)</a>
     <a href="https://barbucks.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
