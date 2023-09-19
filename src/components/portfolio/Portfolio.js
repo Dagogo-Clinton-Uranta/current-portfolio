@@ -34,7 +34,7 @@ import IMG28 from '../../assets/c8.png'
 import IMG29 from '../../assets/c9.png'
 
 /*bway slideshow */
-import IMG31 from '../../assets/bw1.png'
+/*import IMG31 from '../../assets/bw1.png'
 import IMG32 from '../../assets/bw2.png'
 import IMG33 from '../../assets/bw3.png'
 import IMG34 from '../../assets/bw4.png'
@@ -45,9 +45,9 @@ import IMG38 from '../../assets/bw8.png'
 import IMG39 from '../../assets/bw9.png'
 import IMG40 from '../../assets/bw10.png'
 import IMG41 from '../../assets/bw11.png'
-import IMG42 from '../../assets/bw12.png'
+import IMG42 from '../../assets/bw12.png'*/
 import IMG43 from '../../assets/bw13.png'
-import IMG44 from '../../assets/bw14.png'
+/*import IMG44 from '../../assets/bw14.png'
 import IMG45 from '../../assets/bw15.png'
 import IMG46 from '../../assets/bw16.png'
 import IMG47 from '../../assets/bw17.png'
@@ -56,7 +56,7 @@ import IMG49 from '../../assets/bw19.png'
 import IMG50 from '../../assets/bw20.png'
 import IMG51 from '../../assets/bw21.png'
 import IMG52 from '../../assets/bw22.png'
-import IMG53 from '../../assets/bw23.png'
+import IMG53 from '../../assets/bw23.png'*/
 
 
 import {Link} from "react-router-dom";
