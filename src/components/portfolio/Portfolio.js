@@ -70,7 +70,7 @@ const video3 =  'https://dagogobucket.s3.eu-west-2.amazonaws.com/calc3.mp4'
 
 
 const [changeImage,setChangeImage] = useState(IMG22)
-const [changeBw,setChangeBw] = useState(IMG31)
+const [changeBw,setChangeBw] = useState(IMG43)
 const [changeCo1,setChangeCo1] = useState(true)
 const [changeCo2,setChangeCo2] = useState(false)
 const [changeCo3,setChangeCo3] = useState(false)
