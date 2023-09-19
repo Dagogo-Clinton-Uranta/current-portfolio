@@ -119,7 +119,7 @@ const [changeCo3,setChangeCo3] = useState(false)
         },8000)
 
    
-  /*for bway main */
+  /*for bway main 
     setInterval(
 
       ()=>{
@@ -221,7 +221,7 @@ const [changeCo3,setChangeCo3] = useState(false)
         
       }
       
-    ,3000)
+    ,3000)*/
 
 /*for calc */
     setInterval(
@@ -306,22 +306,8 @@ const [changeCo3,setChangeCo3] = useState(false)
 
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
-   <img src={changeBw} alt="portfolio item 1"  />
-  
-   {/*<video height="180px"  muted autoplay loop playsinline preload="true" ref={video1Ref}>
-      <source src={video1} type="video/mp4"/>
-  </video>*/}
-    {/*<VideoPlayer video ={VID1} classCall={"bway-page-vid"}/>*/}
-    {/*<ReactPlayer url={video1}
-       playing={true}
-        loop={true}
-        muted={true}
-        controls={false}
-        playsinline={true}
-height ={"100%"} width={"100%"}  className="portfolio__adjust-image" /> */}
+   <img src={IMG43} alt="portfolio item 1"  />
 
-{/*<iframe className="portfolio__adjust-image" src="https://player.vimeo.com/video/739978384?h=49b34a7641&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;controls=0&amp;muted=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" controls="0"  allow="autoplay;"  title="bway-main-page.mp4"></iframe>*/}
-{/*<div className="portfolio__item-image-display-block"><div id="faux-gif"  className={transClass? 'faux-gif-translate':'hi'} ></div></div>*/}
 </div>
   <h3> Bank Webpage</h3>
   
