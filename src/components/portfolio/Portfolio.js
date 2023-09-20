@@ -2,7 +2,6 @@ import React,{useEffect,useState} from 'react'
 
 //import ImageFadeIn from "react-image-fade-in";
 
-
 import './portfolio.css'
 
 import IMG1 from '../../assets/cinnamon2.png'
@@ -360,7 +359,7 @@ const [changeCo3,setChangeCo3] = useState(false)
 
   {changeCo1 && <img height={300} src={IMG12} /> }
 {changeCo2 &&<img  height={300} src={IMG13} /> }
-{changeCo3 &&<img height={300}  src={IMG14} />}
+{changeCo3 &&<img height={300} src={IMG14} />}
   
 
  {/*<iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/739982715?h=30455e7e64&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>*/}
