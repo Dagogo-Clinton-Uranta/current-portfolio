@@ -92,7 +92,7 @@ const [changeCo3,setChangeCo3] = useState(false)
    
    useEffect(()=>{
 
-    /*FOR CO-OP*/ 
+    /*FOR CO-OPERATIVE*/ 
     setInterval(
 
       ()=>{
