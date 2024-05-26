@@ -57,7 +57,10 @@ import IMG50 from '../../assets/bw20.png'
 import IMG51 from '../../assets/bw21.png'
 import IMG52 from '../../assets/bw22.png'
 import IMG53 from '../../assets/bw23.png'*/
-
+import IMG54 from '../../assets/sleepconnad.png'
+import IMG55 from '../../assets/sleepconnsales.png'
+import IMG56 from '../../assets/poorcred.png'
+import IMG57 from '../../assets/nightsocial.png'
 
 import {Link} from "react-router-dom";
 
@@ -304,12 +307,76 @@ const [changeCo3,setChangeCo3] = useState(false)
   </div>
  </article>
 
+
+ <article className="portfolio__item" >
+  <div className="portfolio__item-image">
+   <img src={IMG54} alt="portfolio item 1"  />
+
+</div>
+  <h3>"Sleep Connection" Advertorial Page</h3>
+  
+  <div className="portfolio__item-cta">
+  <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  </div>
+ 
+ </article>
+
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
    <img src={IMG43} alt="portfolio item 1"  />
 
 </div>
   <h3> Bank Webpage</h3>
+  
+  <div className="portfolio__item-cta">
+  <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  </div>
+ 
+ </article>
+
+
+
+
+ <article className="portfolio__item" >
+  <div className="portfolio__item-image">
+   <img src={IMG55} alt="portfolio item 1"  />
+
+</div>
+  <h3>"Sleep Connection" Sales Page</h3>
+  
+  <div className="portfolio__item-cta">
+  <Link to={"/portfolio12"}><a href="" className="btn">Project Summary</a></Link> 
+  <a href="https://sales-page-iota.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  </div>
+ 
+ </article>
+
+
+
+ <article className="portfolio__item" >
+  <div className="portfolio__item-image">
+   <img src={IMG57} alt="portfolio item 1"  />
+
+</div>
+  <h3>"Nigth Social" social media</h3>
+  
+  <div className="portfolio__item-cta">
+  <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  </div>
+ 
+ </article>
+
+
+
+ <article className="portfolio__item" >
+  <div className="portfolio__item-image">
+   <img src={IMG56} alt="portfolio item 1"  />
+
+</div>
+  <h3> "poor credit" Conversions Page</h3>
   
   <div className="portfolio__item-cta">
   <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
@@ -357,9 +424,9 @@ const [changeCo3,setChangeCo3] = useState(false)
         ))}
       </Carousel>*/}
 
-  {changeCo1 && <img height={300} src={IMG12} /> }
-{changeCo2 &&<img  height={300} src={IMG13} /> }
-{changeCo3 &&<img height={300} src={IMG14} />}
+  {/*changeCo1 && <img height={300} src={IMG12} /> */}
+{<img  height={300} src={IMG12} /> }
+{/*changeCo3 &&<img height={300} src={IMG14} />*/}
   
 
  {/*<iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/739982715?h=30455e7e64&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>*/}

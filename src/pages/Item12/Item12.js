@@ -17,16 +17,16 @@ import './gallery.css'
 
   /*portfolio item imports */
   import './formerportfolio.css'
-  import IMG1 from '../../assets/bridgeway-web1.png'
-  import IMG2 from '../../assets/bridgeway-web3.png'
-  import IMG3 from '../../assets/bridgeway-web4.png'
-  import IMG4 from '../../assets/bridgeway-web2.png'
+  import IMG1 from '../../assets/desktopsleepsales1.png'
+  import IMG2 from '../../assets/sleepsales2.png'
+  import IMG3 from '../../assets/sleepsales3.png'
+  import IMG4 from '../../assets/mobilesleepsales1.png'
  
 
 /*footer imports */
 import Footer from '../../components/footer/Footer.js'
 
-const Item1 = () => {
+const Item12 = () => {
     return (
       <div onLoad={()=>{window.scrollTo(0, 130)}}>
 
@@ -37,7 +37,7 @@ const Item1 = () => {
      </div>
      
      
-      <h5>Item 3</h5>
+      <h5>Item 12</h5>
       <h2>Gallery</h2>
      
    <Swiper className="gallery__container"
@@ -64,8 +64,8 @@ const Item1 = () => {
     </div>
     <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/sales-page" className="btn">Project Code(Github)</a>
+    <a href="https://sales-page-iota.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -80,8 +80,8 @@ const Item1 = () => {
     </div>
     <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/sales-page" className="btn">Project Code(Github)</a>
+    <a href="https://sales-page-iota.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -94,8 +94,8 @@ const Item1 = () => {
     </div>
     <h3>(III)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com" className="btn">Project Code(Github)</a>
-    <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/sales-page" className="btn">Project Code(Github)</a>
+    <a href="https://sales-page-iota.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -199,4 +199,4 @@ const Item1 = () => {
     )
   }
   
-  export default Item1
+  export default Item12
