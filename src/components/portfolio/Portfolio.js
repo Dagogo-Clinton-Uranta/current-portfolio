@@ -4,7 +4,7 @@ import React,{useEffect,useState} from 'react'
 
 import './portfolio.css'
 
-import IMG1 from '../../assets/cinnamon2.png'
+import IMG1 from '../../assets/iphone2.gif'
 import IMG2 from '../../assets/barbucks2.png'
 import IMG3 from '../../assets/c3.png'
 import IMG4 from '../../assets/chat-app2.png'
@@ -289,10 +289,10 @@ const [changeCo3,setChangeCo3] = useState(false)
   <div className="portfolio__item-image">
   <img src={IMG1} alt="portfolio item 1"  />
 </div>
-  <h3>Cinnamon Bank Front End</h3>
+  <h3>Iphone 3D Landing Page</h3>
   <div className="portfolio__item-cta">
- <Link to={"/portfolio1"}><a href="https://dagogo.xyz/portfolio1" className="btn">Project Summary</a></Link> 
-  <a href="https://agitated-albattani-022e3c.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer" >Live Webpage</a>
+ <Link to={"/portfolio1"}>Project Summary</Link> 
+  <a href="https://iphone-threejs-delta.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer" >Live Webpage</a>
   </div>
  </article>
 
@@ -331,7 +331,7 @@ const [changeCo3,setChangeCo3] = useState(false)
   
   <div className="portfolio__item-cta">
   <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  <a href="https://bridge-way.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  
  </article>

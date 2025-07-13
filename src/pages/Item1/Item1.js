@@ -19,9 +19,9 @@ import './gallery.css'
 
   /*portfolio item imports */
   import './formerportfolio.css'
-  import IMG1 from '../../assets/cinna-display-1.png'
-  import IMG2 from '../../assets/cinnamon4.png'
-  import IMG3 from '../../assets/cinnamon3.png'
+  import IMG1 from '../../assets/iphone1.gif'
+  import IMG2 from '../../assets/iphone2.gif'
+  import IMG3 from '../../assets/iphone3.gif'
   import IMG4 from '../../assets/cinnamon1.png'
   import IMG5 from '../../assets/cinnamon2.png'
 
@@ -38,7 +38,7 @@ const Item1 = () => {
      </div>
       
       <h5>Item 1</h5>
-      <h2>Virtual Bank Design</h2>
+      <h2>3D Website Landing Page</h2>
      
    <Swiper className="gallery__container"
    //swiper js options
@@ -60,15 +60,15 @@ const Item1 = () => {
     <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={isBrowser?IMG1:IMG4} alt="portfolio item 1" />
+      <img src={isBrowser?IMG1:IMG1} alt="portfolio item 1" />
     </div>
     <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com/Dagogo-Clinton-Uranta/digital-bank-frontend" className="btn">Project Code(Github)</a>
-    <a href="https://agitated-albattani-022e3c.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/iphone-threejs" className="btn">Project Code(Github)</a>
+    <a href="https://iphone-threejs-delta.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
-    </SwiperSlide>
+    </SwiperSlide>  
     
 
 
@@ -76,12 +76,12 @@ const Item1 = () => {
      <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={isBrowser?IMG2:IMG3} alt="portfolio item 1" />
+      <img src={isBrowser?IMG2:IMG2} alt="portfolio item 1" />
     </div>
     <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com/Dagogo-Clinton-Uranta/digital-bank-frontend" className="btn">Project Code(Github)</a>
-    <a href="https://agitated-albattani-022e3c.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/iphone-threejs" className="btn">Project Code(Github)</a>
+    <a href="https://iphone-threejs-delta.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -90,12 +90,12 @@ const Item1 = () => {
  <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={isBrowser?IMG3:IMG5} alt="portfolio item 1" />
+      <img src={isBrowser?IMG3:IMG3} alt="portfolio item 1" />
     </div>
     <h3>(III)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com/Dagogo-Clinton-Uranta/digital-bank-frontend" className="btn">Project Code(Github)</a>
-    <a href="https://agitated-albattani-022e3c.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/iphone-threejs" className="btn">Project Code(Github)</a>
+    <a href="https://iphone-threejs-delta.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -109,7 +109,7 @@ const Item1 = () => {
 
 
     <section id='services'>
-    <h5>Virtual Bank Web Design </h5>
+    <h5>Iphone 3D Web Design </h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
@@ -154,7 +154,7 @@ const Item1 = () => {
     
 
     <section id='services'>
-    <h5>Virtual Bank Web Design</h5>
+    <h5>Iphone 3D Web Design</h5>
     <h2>Technology Involved</h2>
 
     <div className="container decisions__container ">
