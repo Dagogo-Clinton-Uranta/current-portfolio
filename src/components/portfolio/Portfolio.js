@@ -291,7 +291,7 @@ const [changeCo3,setChangeCo3] = useState(false)
 </div>
   <h3>Iphone 3D Landing Page</h3>
   <div className="portfolio__item-cta">
- <Link to={"/portfolio1"}>Project Summary</Link> 
+ <Link to={"/portfolio1"}><div className='btn'>Project Summary</div></Link> 
   <a href="https://iphone-threejs-delta.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer" >Live Webpage</a>
   </div>
  </article>

@@ -121,22 +121,22 @@ const Item1 = () => {
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>The theming is bright green, symbolising "growth" and "new terrain" in banking.</p>
+            <p>GSAP (Green Sock Animation Protocol) was used to slide in the iphone models to create a continuous effect. </p>
           </li>
           
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>A navbar is present for the whole page and each section is scrolled to when clicked.</p>
+            <p>To Create the slding video gallery, GSAP functions were triggered when the video event listeners were hit.</p>
           </li>
           
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>The page has 3 feature sections on black and white backgrounds for max contrast.</p>
+            <p>For the iPhone models they were extracted from a glb file,with a combination of meshes and materials applied to it.</p>
           </li>
 
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Each feature section has alternating image placement to avoid monotony.</p>
+            <p> For the scenery, a React library for Three JS, react-three-drei was used.Viewports, ambient light and perspective camera were imported.</p>
           </li> 
 
           
