@@ -122,7 +122,7 @@ const Item1 = () => {
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-             A blue base color, with red highlights across the page, In accordance with the Bank's key colors.</p>
+             The website was predominantly done with html css and javascript, with some php to serve dynamic pages.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
@@ -130,7 +130,7 @@ const Item1 = () => {
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Mobile first design with navigation shrinking to a menu icon at certain screen widths.</p>
+            <p>Mobile first design with the help of CSS media queries at different break points.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>

@@ -7,10 +7,12 @@ import './portfolio.css'
 import IMG1 from '../../assets/iphone2.gif'
 import IMG2 from '../../assets/barbucks2.png'
 import IMG3 from '../../assets/c3.png'
-import IMG4 from '../../assets/chat-app2.png'
+import IMG4 from '../../assets/one-recruiter1.png'
 //import IMG5 from '../../assets/bway-cop-op.gif'
 import IMG6 from '../../assets/flacs-carpark2.png'
 import IMG7 from '../../assets/bridgewayview1.png'
+
+import IMG71 from '../../assets/bonecole-pic1.png'
 import IMG8 from '../../assets/laravel-job-board2.png'
 import IMG9 from '../../assets/oop-dalibor1.png'
 //import IMG10 from '../../assets/calc-3.gif'
@@ -279,7 +281,7 @@ const [changeCo3,setChangeCo3] = useState(false)
 
 
 <div className="portfolio__item__type">
- <h2>Front End/Design </h2>
+ <h2>Front End/Design Focused </h2>
  <div className="portfolio__divider"></div>
  </div>
 
@@ -296,31 +298,6 @@ const [changeCo3,setChangeCo3] = useState(false)
   </div>
  </article>
 
- <article className="portfolio__item" >
-  <div className="portfolio__item-image">
-  <img src={IMG2} alt="portfolio item 1"/>
-</div>
-  <h3>"Barbucks" Landing Page</h3>
-  <div className="portfolio__item-cta">
-  <Link to={"/portfolio2"}><a href="https://dagogo.xyz/portfolio2" className="btn">Project Summary</a></Link> 
-  <a href="https://barbucks.netlify.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
-  </div>
- </article>
-
-
- <article className="portfolio__item" >
-  <div className="portfolio__item-image">
-   <img src={IMG54} alt="portfolio item 1"  />
-
-</div>
-  <h3>"Sleep Connection" Advertorial Page</h3>
-  
-  <div className="portfolio__item-cta">
-  <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
-  </div>
- 
- </article>
 
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
@@ -339,7 +316,40 @@ const [changeCo3,setChangeCo3] = useState(false)
 
 
 
- <article className="portfolio__item" >
+
+
+
+<article className="portfolio__item" >
+  <div className="portfolio__item-image">
+   <img src={IMG56} alt="portfolio item 1"  />
+
+</div>
+  <h3> "Poor Credit" Conversions Page</h3>
+  
+  <div className="portfolio__item-cta">
+  <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <a href="https://loans-page.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  </div>
+ 
+ </article>
+
+
+  {/*<article className="portfolio__item" >
+  <div className="portfolio__item-image">
+   <img src={IMG54} alt="portfolio item 1"  />
+
+</div>
+  <h3>"Sleep Connection" Advertorial Page</h3>
+  
+  <div className="portfolio__item-cta">
+  <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  </div>
+ 
+  </article>*/}
+
+
+ {/*<article className="portfolio__item" >
   <div className="portfolio__item-image">
    <img src={IMG55} alt="portfolio item 1"  />
 
@@ -352,10 +362,10 @@ const [changeCo3,setChangeCo3] = useState(false)
   </div>
  
  </article>
+*/}
 
 
-
- <article className="portfolio__item" >
+{/* <article className="portfolio__item" >
   <div className="portfolio__item-image">
    <img src={IMG57} alt="portfolio item 1"  />
 
@@ -367,28 +377,15 @@ const [changeCo3,setChangeCo3] = useState(false)
   <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  
- </article>
+</article>*/}
 
 
 
- <article className="portfolio__item" >
-  <div className="portfolio__item-image">
-   <img src={IMG56} alt="portfolio item 1"  />
-
-</div>
-  <h3> "poor credit" Conversions Page</h3>
-  
-  <div className="portfolio__item-cta">
-  <Link to={"/portfolio3"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://bridgewaymfb.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
-  </div>
- 
- </article>
  </div>
 
  
  <div className="portfolio__item__type">
- <h2>React, Node JS {"&"} Mongo DB</h2>
+ <h2>End To End Projects</h2>
  <div className="portfolio__divider"></div>
  </div>
 
@@ -397,10 +394,23 @@ const [changeCo3,setChangeCo3] = useState(false)
   <div className="portfolio__item-image">
   <img src={IMG4} alt="portfolio item 1"  />
 </div>
-  <h3>Chat Room App</h3>
+<h3>Recruiter Live!</h3>
+  <h4 style={{position:"relative",top:"-1.5rem"}}>(Candidate Recruitment Platform)</h4>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio4/"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://goofy-einstein-ec2b2b.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  <a href="https://onerecruiter-employer.netlify.app/home/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  </div>
+ </article>
+
+
+ <article className="portfolio__item" >
+  <div className="portfolio__item-image">
+  <img src={IMG71} style={{height:"18.5rem"}} alt="portfolio item 1"  />
+  </div>
+  <h3> Online School/Course Marketplace</h3>
+  <div className="portfolio__item-cta">
+  <Link to={"/portfolio14"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <a href="https://prep.bonecole.com/dashboard/home" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
 

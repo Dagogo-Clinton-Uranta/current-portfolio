@@ -15,9 +15,10 @@ import Item9 from "./pages/Item9/Item9.js";
 import Item10 from "./pages/Item10/Item10.js";
 import Item11 from "./pages/Item11/Item11.js";
 import Item12 from "./pages/Item12/Item12.js";
-
+import Item14 from './pages/Item14/Item14.js';
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
 
 
 
@@ -44,6 +45,7 @@ function App() {
            <Route  path="/portfolio10" exact element={<Item10/>} />
            <Route  path="/portfolio11" exact element={<Item11/>} />
            <Route  path="/portfolio12" exact element={<Item12/>} />
+           <Route  path="/portfolio14" exact element={<Item14/>} />
            
          </Routes>
       </Router> 

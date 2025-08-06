@@ -17,26 +17,26 @@ import './gallery.css'
 
   /*portfolio item imports */
   import './formerportfolio.css'
-  import IMG1 from '../../assets/one-recruiter2.png'
-  import IMG2 from '../../assets/one-recruiter3.png'
-  import IMG3 from '../../assets/one-recruiter4.png'
-  
+  import IMG1 from '../../assets/cinna-display-1.png'
+  import IMG2 from '../../assets/cinnamon4.png'
+  import IMG3 from '../../assets/cinnamon3.png'
+  import IMG4 from '../../assets/cinnamon1.png'
+  import IMG5 from '../../assets/cinnamon2.png'
 
 /*footer imports */
 import Footer from '../../components/footer/Footer.js'
 
-const Item1 = () => {
+const Item1# = () => {
     return (
-      <div div onLoad={()=>{window.scrollTo(0, 130)}}>
+      <div onLoad={()=>{window.scrollTo(0, 130)}}>
 
-<section >
-     
+<section id='testimonials'>
+      
 <div style={{display:"flex",justifyContent:"center",margin:"4rem"}}>
-       <Link to={"/#portfolio"}><a href="#" id='testimonials' className="btn btn-primary">Home</a></Link> 
+       <Link to={"/#portfolio"}><a href="#" className="btn btn-primary">Home</a></Link> 
      </div>
-     
-     
-      <h5>Recruiter Live!</h5>
+      
+      <h5>Item 11</h5>
       <h2>Gallery</h2>
      
    <Swiper className="gallery__container"
@@ -55,16 +55,16 @@ const Item1 = () => {
    > 
    {/*1 */}
   
-   
+    
     <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={IMG1} alt="portfolio item 1" />
+      <img src={isBrowser?IMG1:IMG4} alt="portfolio item 1" />
     </div>
-    <h3>( I )</h3>
+    <h3>Laravel Job Board</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com/Dagogo-Clinton-Uranta/recruiter-live.git" className="btn">Project Code(Github)</a>
-    <a href="https://onerecruiter-employer.netlify.app/home" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com" className="btn">Project Code(Github)</a>
+    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -75,12 +75,12 @@ const Item1 = () => {
      <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={IMG2} alt="portfolio item 1" />
+      <img src={isBrowser?IMG2:IMG3} alt="portfolio item 1" />
     </div>
-    <h3>(II)</h3>
+    <h3>Laravel Job Board</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com/Dagogo-Clinton-Uranta/recruiter-live.git" className="btn">Project Code(Github)</a>
-    <a href="https://onerecruiter-employer.netlify.app/home" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com" className="btn">Project Code(Github)</a>
+    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -89,12 +89,12 @@ const Item1 = () => {
  <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={IMG3} alt="portfolio item 1" />
+      <img src={isBrowser?IMG3:IMG5} alt="portfolio item 1" />
     </div>
-    <h3>(III)</h3>
+    <h3>Laravel Job Board</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com/Dagogo-Clinton-Uranta/recruiter-live.git" className="btn">Project Code(Github)</a>
-    <a href="https://onerecruiter-employer.netlify.app/home" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com" className="btn">Project Code(Github)</a>
+    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
     </div>
    </article>
     </SwiperSlide>
@@ -108,35 +108,37 @@ const Item1 = () => {
 
 
     <section id='services'>
-    <h5>Recruiter Live!</h5>
+    <h5>Laravel Job Board</h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>Design Insights include :-</h3>
+          <h3>Ticket Printing System</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-           "Recruiter Live!" is a tool to be used by businesses to streamline the process of processing and hiring of candidates.</p>
+            assumenda deserunt voluptas..</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Upon joining, Businesses Are Presented with the option of adding a new job, and then adding  candidates who are interviewing, to that job.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Posting a job requires setting interview times, candidate requirements and the number of interview rounds to be specified</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </li>
-
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Once a job is posted a pipeline for handling candidates is then opened up, in the "action Items" section,and then candidates can be tracked and processed as required </p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </li>
-         
+          <li>
+            <BiCaretRight className='service__list-icon'/>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </li>
         </ul>
       </article>
      
@@ -150,48 +152,46 @@ const Item1 = () => {
     
 
     <section id='services'>
-    <h5>Chat App</h5>
+    <h5>Laravel Job Board</h5>
     <h2>Technology Involved</h2>
 
     <div className="container decisions__container ">
       <article className="service">
         <div className="service__head">
-          <h3>The rationale for technologies used :-</h3>
+          <h3>Ticket Printing System</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>The key software for this app include React js, Node js and firebase for data storage. Sendgrid email api was used to send emals on behalf of recruiters and businesses.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Amazon S3 storage was also employed, to store assets belonging to candidates such as resumes, photos etc.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p> React Emojify (library) is also made use of here to convert typed symbols to emojis in the input container.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Socket.io was used on the backend and socket.io-client on the front end.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </li>
-
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>On triggering of certain events the socket connections were made to broadcast a message to all users / emit to all users minus the sender.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </li>
-          
         </ul>
       </article>
      
     
   </div>     
-    
+
   <div style={{display:"flex",justifyContent:"center",margin:"4rem"}}>
        <Link to={"/#portfolio"}><a href="#" className="btn btn-primary">Home</a></Link> 
      </div>
-     
+    
     </section>
 
      {/*END OF  DESCRITPION SECTION*/}
@@ -202,4 +202,4 @@ const Item1 = () => {
     )
   }
   
-  export default Item1
+  export default Item1#

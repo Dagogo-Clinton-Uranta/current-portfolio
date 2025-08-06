@@ -116,6 +116,23 @@ const Experience = () => {
          </div>
         </article>
 
+
+        <article className="experience__details">
+         <BsFillPatchCheckFill style={{fontSize:"1rem !important"}} className="experience__details-icon"/>
+         <div>
+         <h4>Docker Containerization/Deployment</h4>
+         <small className='text-light'>3 years</small>
+         </div>
+        </article>
+
+        <article className="experience__details">
+         <BsFillPatchCheckFill style={{fontSize:"1rem !important"}} className="experience__details-icon"/>
+         <div>
+         <h4>OWASP Security Practices</h4>
+         <small className='text-light'>3 years</small>
+         </div>
+        </article>
+
        </div>
 
 
@@ -150,7 +167,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>AWS CloudFront and Route 53</h4>
-         <small className='text-light'>intermediate</small>
+         <small className='text-light'>4 years</small>
          </div>
         </article>
 

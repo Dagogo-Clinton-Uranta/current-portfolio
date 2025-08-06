@@ -87,7 +87,7 @@ const Services = () => {
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Amazon Web Services S3 (for image manipulation and storage)</p>
+            <p>Private Cloud Set up and monitoring(Amazon Web Services)</p>
           </li>
           
         </ul>
