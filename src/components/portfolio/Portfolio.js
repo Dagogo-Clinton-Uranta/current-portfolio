@@ -64,6 +64,13 @@ import IMG55 from '../../assets/sleepconnsales.png'
 import IMG56 from '../../assets/poorcred.png'
 import IMG57 from '../../assets/nightsocial.png'
 
+import IMG58 from '../../assets/audiowave1.png'
+import IMG59 from '../../assets/audiowave2.png'
+import IMG60 from '../../assets/audiowave3.png'
+import IMG61 from '../../assets/audiowave4.png'
+import IMG62 from '../../assets/audiowave5.png'
+import IMG63 from '../../assets/audiowave6.png'
+
 import {Link} from "react-router-dom";
 
 const Portfolio = () => {
@@ -449,6 +456,22 @@ const [changeCo3,setChangeCo3] = useState(false)
   </div>
  </article>
 
+
+ <article className="portfolio__item" >
+  <div className="portfolio__item-image">
+  <img src={IMG58} style={{height:"15.5rem",width:"27rem"}} alt="portfolio item 1"  />
+</div>
+<h3>Audiowave</h3>
+  <h4 style={{position:"relative",top:"-1.5rem"}}>(Music Processing and Sharing Platform)</h4>
+  <div className="portfolio__item-cta">
+  <Link to={"/portfolio15/"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
+  <a href="https://audiowave-tau.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  </div>
+ </article>
+
+
+ 
+
  <article className="portfolio__item" >
   <div className="portfolio__item-image">
   <img src={IMG6} alt="portfolio item 1"  />
@@ -468,7 +491,8 @@ const [changeCo3,setChangeCo3] = useState(false)
   <h3> Bank Account Portal</h3>
   <div className="portfolio__item-cta">
   <Link to={"/portfolio7"}><a href="https://github.com" className="btn">Project Summary</a></Link> 
-  <a href="https://bridgewayview.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  <a href="https://bridgeway-account-portal.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+  
   </div>
  </article>
 

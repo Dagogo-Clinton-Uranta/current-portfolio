@@ -17,17 +17,18 @@ import './gallery.css'
 
   /*portfolio item imports */
   import './formerportfolio.css'
-  import IMG1 from '../../assets/bonecole-pic1.png'
-  import IMG2 from '../../assets/bonecole-pic2.png'
-  import IMG3 from '../../assets/bonecole-pic3.png'
-  import IMG4 from '../../assets/bonecole-pic4.png'
-  import IMG5 from '../../assets/bonecole-pic5.png'
+  import IMG1 from '../../assets/audiowave1.png'
+  import IMG2 from '../../assets/audiowave2.png'
+  import IMG3 from '../../assets/audiowave3.png'
+  import IMG4 from '../../assets/audiowave4.png'
+  import IMG5 from '../../assets/audiowave5.png'
+  import IMG6 from '../../assets/audiowave6.png'
  
 
 /*footer imports */
 import Footer from '../../components/footer/Footer.js'
 
-const Item14 = () => {
+const Item15 = () => {
     return (
       <div onLoad={()=>{window.scrollTo(0, 130)}}>
 
@@ -38,7 +39,7 @@ const Item14 = () => {
      </div>
       
       
-      <h5>Online School</h5>
+      <h5>Music Processing Platform</h5>
       <h2>Gallery</h2>
      
    <Swiper className="gallery__container"
@@ -61,42 +62,43 @@ const Item14 = () => {
     <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={IMG1} style={{maxHeight:"25rem"}}  alt="portfolio item 1" />
+      <img src={IMG2} style={{maxHeight:"25rem"}}  alt="portfolio item 1" />
     </div>
     <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    {<a href="https://github.com/Dagogo-Clinton-Uranta/online-learning-marketplace" className="btn">Project Code(Github)</a>}
-    <a href="https://bonecole.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    {<a href="https://github.com/Dagogo-Clinton-Uranta/audiowave" className="btn">Project Code(Github)</a>}
+    <a href="https://audiowave-tau.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
     
 
 
-     {/*2 */}
-     <SwiperSlide className="gallery-testimonial">
+ {/*2 */}
+ <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={IMG2} style={{maxHeight:"28rem",maxWidth:"18rem",margin:"0 auto"}}  alt="portfolio item 1" />
+      <img src={IMG6} style={{height:"25rem",margin:"0 auto"}}  alt="portfolio item 1" />
     </div>
     <h3>( II )</h3>
     <div className="formerportfolio__item-cta">
-    {<a href="https://github.com/Dagogo-Clinton-Uranta/online-learning-marketplace" className="btn">Project Code(Github)</a>}
-    <a href="https://prep.bonecole.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    {<a href="https://github.com/Dagogo-Clinton-Uranta/audiowave" className="btn">Project Code(Github)</a>}
+    <a href="https://audiowave-tau.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
 
- {/*3 */}
+
+    {/*3 */}
  <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={IMG3} style={{maxHeight:"28rem",maxWidth:"18rem",margin:"0 auto"}}  alt="portfolio item 1" />
+      <img src={IMG4} style={{height:"25rem"}}  alt="portfolio item 1" />
     </div>
     <h3>( III )</h3>
     <div className="formerportfolio__item-cta">
-    {<a href="https://github.com/Dagogo-Clinton-Uranta/online-learning-marketplace" className="btn">Project Code(Github)</a>}
-    <a href="https://prep.bonecole.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    {<a href="https://github.com/Dagogo-Clinton-Uranta/audiowave" className="btn">Project Code(Github)</a>}
+    <a href="https://audiowave-tau.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
@@ -106,27 +108,12 @@ const Item14 = () => {
  <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={IMG4} style={{maxHeight:"25rem"}}  alt="portfolio item 1" />
+      <img src={IMG5} style={{height:"25rem",margin:"0 auto"}} alt="portfolio item 1" />
     </div>
     <h3>( IV )</h3>
     <div className="formerportfolio__item-cta">
-    {<a href="https://github.com/Dagogo-Clinton-Uranta/online-learning-marketplace" className="btn">Project Code(Github)</a>}
-    <a href="https://schools.bonecole.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
-    </div>
-   </article>
-    </SwiperSlide>
-
-
-    {/*5 */}
- <SwiperSlide className="gallery-testimonial">
-    <article className="formerportfolio__item" >
-     <div className="formerportfolio__item-image">
-      <img src={IMG5} style={{maxHeight:"28rem",maxWidth:"18rem",margin:"0 auto"}} alt="portfolio item 1" />
-    </div>
-    <h3>( V )</h3>
-    <div className="formerportfolio__item-cta">
-    {<a href="https://github.com/Dagogo-Clinton-Uranta/online-learning-marketplace" className="btn">Project Code(Github)</a>}
-    <a href="https://bonecole-admin-erp.netlify.app/dashboard/schools" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    {<a href="https://github.com/Dagogo-Clinton-Uranta/audiowave" className="btn">Project Code(Github)</a>}
+    <a href="https://audiowave-tau.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
@@ -140,7 +127,7 @@ const Item14 = () => {
 
 
     <section id='services'>
-    <h5>Online School/Course MarketPlace</h5>
+    <h5>Music Processing Platform</h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
@@ -153,22 +140,22 @@ const Item14 = () => {
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>
-            This project is a full online school complete with modules for student learning, paying of school fees by parents and updating of courses for exams.</p>
+            This project is a music streaming and sharing platform, intended for artistes to meet producers within the industry.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>The app was made for students in Guinee (Africa), where kids have limited access to the internet, so a key feature of the app was it's offline functionality for saving courses.</p>
+            <p>Key Features Include an updates and events page to keep track of what top industry movers are doing, a chat system for contacting your network and music catalog manager for song files</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>The app is accessible via google and facebook (sign ups)</p>
+            <p>Emphasis will be placed on the Music Catalog manager because of the compression code and file management is the top feature of this app.(see technology section below)</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>The app consists of four modules, a parent module, a student module, a teacher's module and a schools module .</p>
+            <p>There is also a global music player located within the app, for song and playlist sampling.</p>
           </li>
 
-
+         {/* DAGOGO -AUG -29 -2025 - I DONT NEED THESE POINTS NOW, BUT LATER
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>The student module is for purchasing courses and past exam material in accordance with the school syllabus.</p>
@@ -184,6 +171,7 @@ const Item14 = () => {
             <BiCaretRight className='service__list-icon'/>
             <p>The school module is for sending out announcements to parents and the teachers module is for uploading quiz questions and answers.</p>
           </li>
+          */}
          
         </ul>
       </article>
@@ -198,7 +186,7 @@ const Item14 = () => {
     
 
     <section id='services'>
-    <h5>Online School/Course MarketPlace</h5>
+    <h5>Music Processing Platform</h5>
     <h2>Technology Involved</h2>
 
     <div className="container decisions__container ">
@@ -210,7 +198,7 @@ const Item14 = () => {
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p> The app/modules are made using, react,node JS, firebase and mongoDB .</p>
+            <p> When Uploading a song, important metadata information is requested such as Writer/composer names, ISR codes,ownership splits,song lyrics and publishing rights.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
@@ -220,13 +208,13 @@ const Item14 = () => {
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Firebase is used here to track authentication and connect with google for login.</p>
+            <p>music-metadata library later helps to extract the files</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Payment Channels used here are OrangePay, paycard and MTN mobile money payments (african payment vendors available in Guinee) </p>
+            <p>handle ffmpeg library assists in converting aiff to mp3 files, using a uint8 array file buffer..continue here later </p>
           </li>
-          <li>
+         {/* <li>
             <BiCaretRight className='service__list-icon'/>
             <p>The offline functionality is handled by indexedDB, a javascript library which expands the use of local storage, by placing an SQL structure database right on the browser.</p>
           </li>
@@ -235,6 +223,8 @@ const Item14 = () => {
             <BiCaretRight className='service__list-icon'/>
             <p>Before each file is stored, it is compressed using the ffmpeg library and my chosen bitrate .</p>
           </li>
+
+        */}
         </ul>
       </article>
      
@@ -255,4 +245,4 @@ const Item14 = () => {
     )
   }
   
-  export default Item14
+  export default Item15

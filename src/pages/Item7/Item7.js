@@ -63,8 +63,8 @@ const Item1 = () => {
     </div>
     <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    {/*<a href="https://github.com" className="btn">Project Code(Github)</a>*/}
-    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/bridgeway-account-portal" className="btn">Project Code(Github)</a>
+    <a href="https://bridgeway-account-portal.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
@@ -79,8 +79,8 @@ const Item1 = () => {
     </div>
     <h3>( II )</h3>
     <div className="formerportfolio__item-cta">
-    {/*<a href="https://github.com" className="btn">Project Code(Github)</a>*/}
-    <a href="http://www.bridgewayview.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/bridgeway-account-portal" className="btn">Project Code(Github)</a>
+    <a href="https://bridgeway-account-portal.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
@@ -93,8 +93,8 @@ const Item1 = () => {
     </div>
     <h3>( III )</h3>
     <div className="formerportfolio__item-cta">
-    {/*<a href="https://github.com" className="btn">Project Code(Github)</a>*/}
-    <a href="http://www.bridgewayview.com" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/bridgeway-account-portal" className="btn">Project Code(Github)</a>
+    <a href="https://bridgeway-account-portal.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
     </div>
    </article>
     </SwiperSlide>
