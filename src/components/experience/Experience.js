@@ -17,7 +17,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>Angular</h4>
-         <small className='text-light'>3 Years</small>
+         <small className='text-light'>4 years</small>
          </div>
         </article>
 
@@ -33,7 +33,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>Typescript</h4>
-         <small className='text-light'>5 years</small>
+         <small className='text-light'>6 years</small>
          </div>
         </article>
 
@@ -41,7 +41,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>React/Next JS</h4>
-         <small className='text-light'>5 years</small>
+         <small className='text-light'>6 years</small>
          </div>
        
         </article>
@@ -50,7 +50,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
           <div>
          <h4>Tailwind CSS</h4>
-         <small className='text-light'>3 Years</small>
+         <small className='text-light'>4 years</small>
          </div>
         </article>
 
@@ -72,7 +72,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>Node JS(Express & Nest)</h4>
-         <small className='text-light'>5 years</small>
+         <small className='text-light'>6 years</small>
          </div>
         </article>
 
@@ -80,7 +80,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>PHP</h4>
-         <small className='text-light'>3 years</small>
+         <small className='text-light'>4 years</small>
          </div>
         </article>
 
@@ -88,7 +88,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>MongoDB/NoSQL</h4>
-         <small className='text-light'>5 years</small>
+         <small className='text-light'>6 years</small>
          </div>
         </article>
 
@@ -96,7 +96,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>PostgreSQL/MySQL</h4>
-         <small className='text-light'>5 years</small>
+         <small className='text-light'>6 years</small>
          </div>
         </article>
 
@@ -104,7 +104,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>Firebase</h4>
-         <small className='text-light'>5 years</small>
+         <small className='text-light'>6 years</small>
          </div>
         </article>
 
@@ -112,7 +112,7 @@ const Experience = () => {
          <BsFillPatchCheckFill className="experience__details-icon"/>
          <div>
          <h4>Test Driven Development</h4>
-         <small className='text-light'>3 years</small>
+         <small className='text-light'>4 years</small>
          </div>
         </article>
 
@@ -121,7 +121,7 @@ const Experience = () => {
          <BsFillPatchCheckFill style={{fontSize:"1rem !important"}} className="experience__details-icon"/>
          <div>
          <h4>Docker Containerization/Deployment</h4>
-         <small className='text-light'>3 years</small>
+         <small className='text-light'>4 years</small>
          </div>
         </article>
 
@@ -129,7 +129,7 @@ const Experience = () => {
          <BsFillPatchCheckFill style={{fontSize:"1rem !important"}} className="experience__details-icon"/>
          <div>
          <h4>OWASP Security Practices</h4>
-         <small className='text-light'>3 years</small>
+         <small className='text-light'>4 years</small>
          </div>
         </article>
 
