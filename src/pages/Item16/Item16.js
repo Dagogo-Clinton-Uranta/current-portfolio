@@ -191,33 +191,28 @@ const Item16 = () => {
         <ul className="service__list">
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p> When Uploading a song, important metadata information is requested such as Writer/composer names, ISR codes,ownership splits,song lyrics and publishing rights.</p>
+            <p>  Separating reservations, payments (Stripe), and notifications. RabbitMQ queues buffer and retry requests to maintain stability under heavy load..</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>All assets (images, pdfs and audiofiles) are stored in AWS S3 buckets, and the app's load speed is assisted with the use of AWS cloudfront. AWS route 53 is also used here for domain name set up.
-              AWS CodePipeline is also used here, to deploy changes right from github into production  </p>
+            <p>Containerized with Docker and deployed on Kubernetes (GKE) for scalable, production-grade orchestration. This enables smooth scaling and controlled rollouts. </p>
             
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>music-metadata library later helps to extract the files</p>
+            <p>
+Used MongoDB with Mongoose for structured data modeling and JWT-based authentication for secure access control. A shared database module keeps model registration consistent.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>handle ffmpeg library assists in converting aiff to mp3 files, using a uint8 array file buffer..continue here later </p>
+            <p>Implemented event-driven workflows so successful payments trigger downstream notifications asynchronously. Added structured logging and validation for production-level reliability. </p>
           </li>
-         {/* <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>The offline functionality is handled by indexedDB, a javascript library which expands the use of local storage, by placing an SQL structure database right on the browser.</p>
-          </li>
+         
 
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Before each file is stored, it is compressed using the ffmpeg library and my chosen bitrate .</p>
-          </li>
 
-        */}
+
+
+
         </ul>
       </article>
      

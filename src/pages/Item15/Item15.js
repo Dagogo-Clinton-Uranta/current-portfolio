@@ -212,7 +212,7 @@ const Item15 = () => {
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>handle ffmpeg library assists in converting aiff to mp3 files, using a uint8 array file buffer..continue here later </p>
+            <p>handle ffmpeg library assists in converting aiff to mp3 files, using a uint8 array file buffer. </p>
           </li>
          {/* <li>
             <BiCaretRight className='service__list-icon'/>
