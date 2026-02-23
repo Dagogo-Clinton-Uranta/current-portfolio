@@ -71,6 +71,9 @@ import IMG61 from '../../assets/audiowave4.png'
 import IMG62 from '../../assets/audiowave5.png'
 import IMG63 from '../../assets/audiowave6.png'
 
+import IMG64 from '../../assets/IMG-NEST-1.png'
+
+
 import {Link} from "react-router-dom";
 
 const Portfolio = () => {
@@ -390,9 +393,34 @@ const [changeCo3,setChangeCo3] = useState(false)
 
  </div>
 
+
+
+
+ <div className="portfolio__item__type">
+ <h2>Backend/Microservices (in Nest JS) </h2>
+ <div className="portfolio__divider"></div>
+ </div>
+
+<div className="container portfolio__container">
+
+ <article className="portfolio__item" >
+  <div className="portfolio__item-image">
+  <img src={IMG64} alt="portfolio item 16"  />
+</div>
+  <h3>Reservations and Booking Microservices</h3>
+  <div className="portfolio__item-cta">
+ <Link to={"/portfolio16"}><div className='btn'>Project Summary</div></Link> 
+  <a href="https://github.com/Dagogo-Clinton-Uranta/sleepr-booking-microservices" className="btn btn-primary" target="_blank" rel="noreferrer" >Codebase(Github)</a>
+  </div>
+ </article>
+
+
+
+ </div>
+
  
  <div className="portfolio__item__type">
- <h2>End To End Projects</h2>
+ <h2>End To End Projects(React,Node & MySQL)</h2>
  <div className="portfolio__divider"></div>
  </div>
 
