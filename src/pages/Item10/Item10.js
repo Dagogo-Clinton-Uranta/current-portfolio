@@ -191,7 +191,7 @@ const Item1 = () => {
 
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>The Red, Green, Refactor methodology was used here as I wrote a test based on requirements, had the test fail, then refactored the code to have it pass.</p>
+            <p>The Red, Green, Refactor methodology was used here as I wrote a test based on requirements, had the test fail, then refactored the code/components to meet requirements and pass the tests.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
