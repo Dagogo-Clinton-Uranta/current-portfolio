@@ -17,8 +17,11 @@ import './gallery.css'
 
   /*portfolio item imports */
   import './formerportfolio.css'
-  import IMG1 from '../../assets/calc1.png'
-  import IMG2 from '../../assets/calc2.png'
+  import IMG1 from '../../assets/test-driven-react-1.png'
+  import IMG2 from '../../assets/test-driven-react-2.png'
+  import IMG3 from '../../assets/test-driven-react-3.png'
+  import IMG4 from '../../assets/test-driven-react-4.png'
+
   
 /*footer imports */
 import Footer from '../../components/footer/Footer.js'
@@ -60,8 +63,8 @@ const Item1 = () => {
     </div>
     <h3>( I )</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com/Dagogo-Clinton-Uranta/Dagogo-Bincom" className="btn">Project Code(Github)</a>
-    <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/test-driven-devt-in-react" className="btn">Project Code(Github)</a>
+   {/* <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>*/}
     </div>
    </article>
     </SwiperSlide>
@@ -72,15 +75,46 @@ const Item1 = () => {
      <SwiperSlide className="gallery-testimonial">
     <article className="formerportfolio__item" >
      <div className="formerportfolio__item-image">
-      <img src={IMG2} alt="portfolio item 1" />
+      <img src={IMG2} alt="portfolio item 2" />
     </div>
     <h3>(II)</h3>
     <div className="formerportfolio__item-cta">
-    <a href="https://github.com/Dagogo-Clinton-Uranta/Dagogo-Bincom" className="btn">Project Code(Github)</a>
-    <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
+    <a href="https://github.com/Dagogo-Clinton-Uranta/test-driven-devt-in-react" className="btn">Project Code(Github)</a>
+    {/*<a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>*/}
     </div>
    </article>
     </SwiperSlide>
+
+
+      {/*3 */}
+      <SwiperSlide className="gallery-testimonial">
+    <article className="formerportfolio__item" >
+     <div className="formerportfolio__item-image">
+      <img src={IMG3} alt="portfolio item 3" />
+    </div>
+    <h3>(III)</h3>
+    <div className="formerportfolio__item-cta">
+    <a href="https://github.com/Dagogo-Clinton-Uranta/test-driven-devt-in-react" className="btn">Project Code(Github)</a>
+    {/*<a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>*/}
+    </div>
+   </article>
+    </SwiperSlide>
+
+
+     {/*3 */}
+     <SwiperSlide className="gallery-testimonial">
+    <article className="formerportfolio__item" >
+     <div className="formerportfolio__item-image">
+      <img src={IMG4} alt="portfolio item 4" />
+    </div>
+    <h3>(IV)</h3>
+    <div className="formerportfolio__item-cta">
+    <a href="https://github.com/Dagogo-Clinton-Uranta/test-driven-devt-in-react" className="btn">Project Code(Github)</a>
+    {/*<a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>*/}
+    </div>
+   </article>
+    </SwiperSlide>
+
 
  
 
@@ -90,9 +124,9 @@ const Item1 = () => {
 
 {/*END OF PROJECT DISPLAY SECTION */}
 
-
+ {/*
     <section id='services'>
-    <h5>Neumorphic Calculator</h5>
+    <h5>Test Driven Development - Shortlet Booking App</h5>
     <h2>Design Decisions</h2>
 
     <div className="container decisions__container ">
@@ -125,13 +159,14 @@ const Item1 = () => {
   </div>     
     
     </section>
+*/}
 
      {/*END OF  DESCRITPION SECTION*/}
 
     
 
     <section id='services'>
-    <h5>Neumorphic Calculator</h5>
+    <h5>Test Driven Development - Shortlet Booking App</h5>
     <h2>Technologies Used </h2>
 
     <div className="container decisions__container ">
@@ -141,25 +176,30 @@ const Item1 = () => {
         </div>
 
         <ul className="service__list">
+         
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>CSS key frames were chiefly used, varying position of the "glare" within a one second time-frame.</p>
+            <p>I Employed Test Driven Development on this app, as an industry standard practice, for keeping track of code requirements as the codebase grew larger.</p>
+          </li>
+
+
+          <li>
+            <BiCaretRight className='service__list-icon'/>
+            <p>React Testing Libray was used here to render components for UNIT TESTING, and to fetch test Ids. Jest library was also used here to mock functions .</p>
+          </li>
+
+
+          <li>
+            <BiCaretRight className='service__list-icon'/>
+            <p>The Red, Green, Refactor methodology was used here as I wrote a test based on requirements, had the test fail, then refactored the code to have it pass.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Javascript evet listeners are used to scale down button sizes when clicked.</p>
+            <p>Test Suites, Grouped into describe blocks were sort tests being used into easily recognizable groups.</p>
           </li>
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>Javascript variables are also used to store previously clicked values and perform operations with them.</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>An animation effect for the words was also created, bringing in the text in 40 evenly spaced intervals</p>
-          </li>
-          <li>
-            <BiCaretRight className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>An api call was made to load in the shortlet properties,but since the emphasis was on unit testing OUR CODE, and not the api, we used a Jest Mock implementaion of the API call.</p>
           </li>
         </ul>
       </article>

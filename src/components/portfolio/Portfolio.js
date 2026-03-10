@@ -26,7 +26,7 @@ import IMG14 from '../../assets/co3.png'
 
 /*calc slideshow */
 import IMG21 from '../../assets/c1.png'
-import IMG22 from '../../assets/c2.png'
+import IMG22 from '../../assets/test-driven-react-2.png'
 import IMG23 from '../../assets/c3.png'
 import IMG24 from '../../assets/c4.png'
 import IMG25 from '../../assets/c5.png'
@@ -238,46 +238,46 @@ const [changeCo3,setChangeCo3] = useState(false)
       
     ,3000)*/
 
-/*for calc */
-    setInterval(
-
-      ()=>{
-        setTimeout(function(){
-          setChangeImage(IMG23)
-         },100)
-
-         setTimeout(function(){
-          setChangeImage(IMG23)
-         },200)
-
-         setTimeout(function(){
-          setChangeImage(IMG24)
-         },300)
-
-         setTimeout(function(){
-          setChangeImage(IMG25)
-         },300)
-
-         setTimeout(function(){
-          setChangeImage(IMG26)
-         },400)
-
-         setTimeout(function(){
-          setChangeImage(IMG27)
-         },500)
-
-         setTimeout(function(){
-          setChangeImage(IMG28)
-         },600)
-
-         setTimeout(function(){
-          setChangeImage(IMG29)
-         },700)
-
-         
-      }
-      
-    ,700)
+/*for calc - no more calc on this project*/
+   // setInterval(
+//
+   //   ()=>{
+   //     setTimeout(function(){
+   //       setChangeImage(IMG23)
+   //      },100)
+//
+   //      setTimeout(function(){
+   //       setChangeImage(IMG23)
+   //      },200)
+//
+   //      setTimeout(function(){
+   //       setChangeImage(IMG24)
+   //      },300)
+//
+   //      setTimeout(function(){
+   //       setChangeImage(IMG25)
+   //      },300)
+//
+   //      setTimeout(function(){
+   //       setChangeImage(IMG26)
+   //      },400)
+//
+   //      setTimeout(function(){
+   //       setChangeImage(IMG27)
+   //      },500)
+//
+   //      setTimeout(function(){
+   //       setChangeImage(IMG28)
+   //      },600)
+//
+   //      setTimeout(function(){
+   //       setChangeImage(IMG29)
+   //      },700)
+//
+   //      
+   //   }
+   //   
+   // ,700)
 
 
    },[])
@@ -558,14 +558,14 @@ const [changeCo3,setChangeCo3] = useState(false)
 
 
  <div className="portfolio__item__type">
- <h2>Animation Projects</h2>
+ <h2>Test Driven Development</h2>
  <div className="portfolio__divider"></div>
  </div>
 
  <div className="container portfolio__container">
  <article className="portfolio__item" >
   <div className="portfolio__item-image" >
-  <img src={changeImage} alt="portfolio item 10"  />
+  <img src={IMG22} alt="portfolio item 10"  />
  {/*<video height="270px" muted autoplay loop playsinline preload="true" ref={video3Ref}>
       <source src={video3} type="video/mp4"/>
     </video>*/}
@@ -582,9 +582,9 @@ const [changeCo3,setChangeCo3] = useState(false)
   
   {/*<iframe style={{borderRadius:"2.5rem"}} src="https://player.vimeo.com/video/740093923?h=fe6a194ccd&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=0" width="100%" height="270px" controls="0"  allow="autoplay;"  title="co-op-vid.mp4"></iframe>*/}
 
-  <h3>Neumorphic Calculator</h3>
+  <h3>Shortlet Booking App</h3>
   <div className="portfolio__item-cta">
-  <Link to={"/portfolio10"}><a href="https://github.com/Dagogo-Clinton-Uranta/Dagogo-Bincom" className="btn">Project Summary</a></Link> 
+  <Link to={"/portfolio10"}><a href="https://github.com/Dagogo-Clinton-Uranta/test-driven-devt-in-react" className="btn">Project Summary</a></Link> 
   <a href="https://heuristic-jang-f21b6c.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Webpage</a>
   </div>
  </article>
