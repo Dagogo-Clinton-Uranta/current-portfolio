@@ -179,10 +179,10 @@ const Item1 = () => {
          
           <li>
             <BiCaretRight className='service__list-icon'/>
-            <p>I Employed Test Driven Development on this app, as an industry standard practice, for keeping track of code requirements as the codebase grew larger.</p>
+            <p>I Employed Test Driven Development on this app, as an industry standard practice, for keeping track of code requirements as the codebase grew larger.</p> 
           </li>
 
-
+ 
           <li>
             <BiCaretRight className='service__list-icon'/>
             <p>React Testing Libray was used here to render components for UNIT TESTING, and to fetch test Ids. Jest library was also used here to mock functions .</p>
