@@ -22,11 +22,10 @@
     "node": ">=18 <=22"
   },
   "id": "fix-debug",
-"content": {
+
   "resolutions": {
     "debug": "^4.3.4"
-  }
-},
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
