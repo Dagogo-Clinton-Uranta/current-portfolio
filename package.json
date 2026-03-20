@@ -21,12 +21,20 @@
   "engines": {
     "node": ">=18 <=22"
   },
+  "id": "fix-debug",
+"content": {
+  "resolutions": {
+    "debug": "^4.3.4"
+  }
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build "
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build ",
+    "id": "scripts-fix",
+    "preinstall": "npx npm-force-resolutions",
   },
   "eslintConfig": {
     "extends": [
