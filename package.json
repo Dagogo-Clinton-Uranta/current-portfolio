@@ -33,7 +33,7 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build ",
     "id": "scripts-fix",
-    "preinstall": "npx npm-force-resolutions",
+    "preinstall": "npx npm-force-resolutions"
   },
   "eslintConfig": {
     "extends": [
